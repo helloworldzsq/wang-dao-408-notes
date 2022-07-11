@@ -1,7 +1,7 @@
 # 王道408笔记
 
 #### Description
-本仓库存放的是看B站王道考研视频整理的笔记，有需要的同学自取。如果对你有帮助的话，请点个star!
+本仓库存放的是看B站王道考研视频整理的笔记，有需要的同学自取。如果对你有所帮助的话，记得点个star！
 
 #### Software Architecture
 Software architecture description
