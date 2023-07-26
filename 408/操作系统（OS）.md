@@ -10,7 +10,7 @@
 
 > 操作系统在系统中的位置
 
-![在这里插入图片描述](https://typora-dzsq.oss-cn-hangzhou.aliyuncs.com/picgoimages-master/20200913123154943.png)
+![在这里插入图片描述](https://typora-dzsq1.oss-cn-hangzhou.aliyuncs.com/20200913123154943.png)
 
 > 操作系统的功能和目标
 
@@ -23,7 +23,7 @@
 
 2. 用户和计算机硬件之间的接口
 
-![image-20210803155903894](https://typora-dzsq.oss-cn-hangzhou.aliyuncs.com/picgoimages-master/image-20210803155903894.png)
+![image-20210803155903894](https://typora-dzsq1.oss-cn-hangzhou.aliyuncs.com/image-20210803155903894.png)
 
 3. 对硬件机器的拓展
 
@@ -39,7 +39,7 @@
 
 共享即资源共享，是指系统中的资源内存中多个并发执行的进程共同使用。
 
-![image-20210803160930275](https://typora-dzsq.oss-cn-hangzhou.aliyuncs.com/picgoimages-master/image-20210803160930275.png)
+![image-20210803160930275](https://typora-dzsq1.oss-cn-hangzhou.aliyuncs.com/image-20210803160930275.png)
 
 所谓的“同时”往往是宏观上的，而在微观上，这些进程可能是交替地对该资源进行访问的(即分时共享)
 
@@ -52,7 +52,7 @@
 
 虚拟是指把一个物理上的实体变为若干个逻辑上的对应物。物理实体（前者）是实际存在的，而逻辑上对应物（后者）是用户感受到的。
 
-![image-20210803161622408](https://typora-dzsq.oss-cn-hangzhou.aliyuncs.com/picgoimages-master/image-20210803161622408.png)
+![image-20210803161622408](https://typora-dzsq1.oss-cn-hangzhou.aliyuncs.com/image-20210803161622408.png)
 
 4. 异步
 
@@ -64,25 +64,25 @@
 
 - 指令
 
-![image-20210803163918128](https://typora-dzsq.oss-cn-hangzhou.aliyuncs.com/picgoimages-master/image-20210803163918128.png)
+![image-20210803163918128](https://typora-dzsq1.oss-cn-hangzhou.aliyuncs.com/image-20210803163918128.png)
 
 - CPU
 
-![image-20210803163953265](https://typora-dzsq.oss-cn-hangzhou.aliyuncs.com/picgoimages-master/image-20210803163953265.png)
+![image-20210803163953265](https://typora-dzsq1.oss-cn-hangzhou.aliyuncs.com/image-20210803163953265.png)
 
 - 程序
 
-![image-20210803164014423](https://typora-dzsq.oss-cn-hangzhou.aliyuncs.com/picgoimages-master/image-20210803164014423.png)
+![image-20210803164014423](https://typora-dzsq1.oss-cn-hangzhou.aliyuncs.com/image-20210803164014423.png)
 
 - 操作系统的内核
 
 由于内核划分功能的不同，内核分为大内核和微内核。
 
-![image-20210803164737354](https://typora-dzsq.oss-cn-hangzhou.aliyuncs.com/picgoimages-master/image-20210803164737354.png)
+![image-20210803164737354](https://typora-dzsq1.oss-cn-hangzhou.aliyuncs.com/image-20210803164737354.png)
 
 - 大内核和微内核的优缺点
 
-![image-20210803164935729](https://typora-dzsq.oss-cn-hangzhou.aliyuncs.com/picgoimages-master/image-20210803164935729.png)
+![image-20210803164935729](https://typora-dzsq1.oss-cn-hangzhou.aliyuncs.com/image-20210803164935729.png)
 
 类比:
 
@@ -108,7 +108,7 @@
 
 - 中断信号的来源来自CPU内部称为内中断，外部称为外中断。
 
-![image-20210803172625970](https://typora-dzsq.oss-cn-hangzhou.aliyuncs.com/picgoimages-master/image-20210803172625970.png)
+![image-20210803172625970](https://typora-dzsq1.oss-cn-hangzhou.aliyuncs.com/image-20210803172625970.png)
 
 ### 4.系统调用
 
@@ -116,7 +116,7 @@
 
 “系统调用”是操作系统提供给应用程序（程序员/编程人员）使用的接口，可以理解为一种可供应用程序调用的特殊函数，应用程序可以发出系统调用请求来获得操作系统的服务。
 
-![image-20210803173308247](https://typora-dzsq.oss-cn-hangzhou.aliyuncs.com/picgoimages-master/image-20210803173308247.png)
+![image-20210803173308247](https://typora-dzsq1.oss-cn-hangzhou.aliyuncs.com/image-20210803173308247.png)
 
 #### 2.作用
 
@@ -149,7 +149,7 @@
 
 
 
-![image-20210804132427626](https://typora-dzsq.oss-cn-hangzhou.aliyuncs.com/picgoimages-master/image-20210804132427626.png)
+![image-20210804132427626](https://typora-dzsq1.oss-cn-hangzhou.aliyuncs.com/image-20210804132427626.png)
 
 #### 2.进程的组织方式
 
@@ -158,13 +158,13 @@
 
 相当于java中的链表和数组。
 
-![image-20210804133435317](https://typora-dzsq.oss-cn-hangzhou.aliyuncs.com/picgoimages-master/image-20210804133435317.png)
+![image-20210804133435317](https://typora-dzsq1.oss-cn-hangzhou.aliyuncs.com/image-20210804133435317.png)
 
 
 
 #### 3.进程的特征
 
-![image-20210804133900620](https://typora-dzsq.oss-cn-hangzhou.aliyuncs.com/picgoimages-master/image-20210804133900620.png)
+![image-20210804133900620](https://typora-dzsq1.oss-cn-hangzhou.aliyuncs.com/image-20210804133900620.png)
 
 ### 2.进程的状态和转换
 
@@ -172,7 +172,7 @@
 
 进程是程序的一次执行。在这个过程中，进程的状态会有各种变化。为了方便各个进程的管理，操作系统将进程划分为几个状态。
 
-![image-20210804134612092](https://typora-dzsq.oss-cn-hangzhou.aliyuncs.com/picgoimages-master/image-20210804134612092.png)
+![image-20210804134612092](https://typora-dzsq1.oss-cn-hangzhou.aliyuncs.com/image-20210804134612092.png)
 
 
 
@@ -180,13 +180,13 @@
 
 除此之外，进程还有两种状态。
 
-![image-20210804134807573](https://typora-dzsq.oss-cn-hangzhou.aliyuncs.com/picgoimages-master/image-20210804134807573.png)
+![image-20210804134807573](https://typora-dzsq1.oss-cn-hangzhou.aliyuncs.com/image-20210804134807573.png)
 
 
 
 #### 2.转换
 
-![image-20210804135200848](https://typora-dzsq.oss-cn-hangzhou.aliyuncs.com/picgoimages-master/image-20210804135200848.png)
+![image-20210804135200848](https://typora-dzsq1.oss-cn-hangzhou.aliyuncs.com/image-20210804135200848.png)
 
 
 
@@ -202,7 +202,7 @@
 
 原语采用 “关中断指令” 和 “开中断指令” 来实现。 注意： 原语运行在核心态。
 
-![image-20210804140224825](https://typora-dzsq.oss-cn-hangzhou.aliyuncs.com/picgoimages-master/image-20210804140224825.png)
+![image-20210804140224825](https://typora-dzsq1.oss-cn-hangzhou.aliyuncs.com/image-20210804140224825.png)
 
 
 
@@ -217,7 +217,7 @@
 
 具体实现如图所示：
 
-![image-20210804140655847](https://typora-dzsq.oss-cn-hangzhou.aliyuncs.com/picgoimages-master/image-20210804140655847.png)
+![image-20210804140655847](https://typora-dzsq1.oss-cn-hangzhou.aliyuncs.com/image-20210804140655847.png)
 
 
 
@@ -233,7 +233,7 @@
 
 #### 1.共享存储
 
-![image-20210804141304538](https://typora-dzsq.oss-cn-hangzhou.aliyuncs.com/picgoimages-master/image-20210804141304538.png)
+![image-20210804141304538](https://typora-dzsq1.oss-cn-hangzhou.aliyuncs.com/image-20210804141304538.png)
 
 
 
@@ -245,7 +245,7 @@
 4. **如果没写满，就不允许读。如果没读空，就不允许写。**
 5. 数据一旦被读出，就从管道中被抛弃，这就意味着**读进程最多只能有一个，否则可能会有读错数据的情况。**
 
-![image-20210804141624412](https://typora-dzsq.oss-cn-hangzhou.aliyuncs.com/picgoimages-master/image-20210804141624412.png)
+![image-20210804141624412](https://typora-dzsq1.oss-cn-hangzhou.aliyuncs.com/image-20210804141624412.png)
 
 #### 3.消息传递
 
@@ -253,7 +253,7 @@
 
 类似于Http协议。
 
-![image-20210804142126570](https://typora-dzsq.oss-cn-hangzhou.aliyuncs.com/picgoimages-master/image-20210804142126570.png)
+![image-20210804142126570](https://typora-dzsq1.oss-cn-hangzhou.aliyuncs.com/image-20210804142126570.png)
 
 ### 5.线程概念和多线程模型
 
@@ -267,7 +267,7 @@
 
 - 引入线程后，进程作为除CPU之外的系统资源的分配单元。
 
-![image-20210804142809083](https://typora-dzsq.oss-cn-hangzhou.aliyuncs.com/picgoimages-master/image-20210804142809083.png)
+![image-20210804142809083](https://typora-dzsq1.oss-cn-hangzhou.aliyuncs.com/image-20210804142809083.png)
 
 #### 2.线程分类
 
@@ -293,7 +293,7 @@
 - 优点:用户级线程的切换在用户空间即可完成，不需要切换到核心态，**线程管理的系统开销小，效率高**
 - 缺点:当一个用户级线程被阻塞后，整个进程都会被阻塞，并发度不高。**多个线程不可在多核处理机上并行运行**
 
-![image-20210804144200566](https://typora-dzsq.oss-cn-hangzhou.aliyuncs.com/picgoimages-master/image-20210804144200566.png)
+![image-20210804144200566](https://typora-dzsq1.oss-cn-hangzhou.aliyuncs.com/image-20210804144200566.png)
 
 > 一对一模型
 
@@ -301,14 +301,14 @@
 - 优点:当一个线程被阻塞后，别的线程还可以继续执行，并发能力强。**多线程可在多核处理机上并行执行。**
 - 缺点:一个用户进程会占用多个内核级线程，线程切换由操作系统内核完成，需要切换到核心态，**因此线程管理的成本高，开销大。**
 
-![image-20210804144508904](https://typora-dzsq.oss-cn-hangzhou.aliyuncs.com/picgoimages-master/image-20210804144508904.png)
+![image-20210804144508904](https://typora-dzsq1.oss-cn-hangzhou.aliyuncs.com/image-20210804144508904.png)
 
 > 多对多模型
 
 - 多对多模型:n用户级线程映射到m个内核级线程(n >=m)。每个用户进程对应m个内核级线程。
 - 克服了多对一模型并发度不高的缺点，又克服了一对一模型中一个用户进程占用太多内核级线程，开销太大的缺点。
 
-![image-20210804144634167](https://typora-dzsq.oss-cn-hangzhou.aliyuncs.com/picgoimages-master/image-20210804144634167.png)
+![image-20210804144634167](https://typora-dzsq1.oss-cn-hangzhou.aliyuncs.com/image-20210804144634167.png)
 
 ### 7.处理机调度的概念和层次
 
@@ -326,7 +326,7 @@
 - 高级调度（作业调度)。按一定的原则从外存上处于后备队列的作业中挑选一个(或多个）作业，给他们分配内存等必要资源，并建立相应的进程（建立PCB)，以使它（们）获得竞争处理机的权利。
 - ==**高级调度是辅存（外存）与内存之间的调度**==。每个作业只调入一次，调出一次。作业调入时会建立相应的PCB，作业调出时才撤销PCB。**高级调度主要是指调入的问题**，因为只有调入的时机需要操作系统来确定，调出的时机必然是作业运行结束才调出。
 
-![image-20210804152012091](https://typora-dzsq.oss-cn-hangzhou.aliyuncs.com/picgoimages-master/image-20210804152012091.png)
+![image-20210804152012091](https://typora-dzsq1.oss-cn-hangzhou.aliyuncs.com/image-20210804152012091.png)
 
 #### 2.中级调度
 
@@ -335,7 +335,7 @@
 - **中级调度（内存调度），就是要决定将哪个处于挂起状态的进程重新调入内存。**
 - 一个进程可能会被多次调出、调入内存，因此**中级调度发生的频率要比高级调度更高。**
 
-![image-20210804152341270](https://typora-dzsq.oss-cn-hangzhou.aliyuncs.com/picgoimages-master/image-20210804152341270.png)
+![image-20210804152341270](https://typora-dzsq1.oss-cn-hangzhou.aliyuncs.com/image-20210804152341270.png)
 
 
 
@@ -345,7 +345,7 @@
 
 - 挂起状态又可以进一步细分为就绪挂起，堵塞挂起两种状态。
 
-![image-20210804152935709](https://typora-dzsq.oss-cn-hangzhou.aliyuncs.com/picgoimages-master/image-20210804152935709.png)
+![image-20210804152935709](https://typora-dzsq1.oss-cn-hangzhou.aliyuncs.com/image-20210804152935709.png)
 
 #### 3.低级调度
 
@@ -353,17 +353,17 @@
 - 进程调度是操作系统中最基本的一种调度，在一般的操作系统中都必须配置进程调度。
 - 进程调度的频率很高，一般几十毫秒一次。
 
-![image-20210804153047419](https://typora-dzsq.oss-cn-hangzhou.aliyuncs.com/picgoimages-master/image-20210804153047419.png)
+![image-20210804153047419](https://typora-dzsq1.oss-cn-hangzhou.aliyuncs.com/image-20210804153047419.png)
 
 #### 4.三种调度的联系和对比
 
-![image-20210804153249686](https://typora-dzsq.oss-cn-hangzhou.aliyuncs.com/picgoimages-master/image-20210804153249686.png)
+![image-20210804153249686](https://typora-dzsq1.oss-cn-hangzhou.aliyuncs.com/image-20210804153249686.png)
 
 ### 8.进程调度的时机，切换过程和方式
 
 #### 1.进程调度的时机
 
-![image-20210805140446449](https://typora-dzsq.oss-cn-hangzhou.aliyuncs.com/picgoimages-master/image-20210805140446449.png)
+![image-20210805140446449](https://typora-dzsq1.oss-cn-hangzhou.aliyuncs.com/image-20210805140446449.png)
 
 
 
@@ -411,7 +411,7 @@
 - CPU利用率： CPU"忙碌"的时间占总时间的比例。
 - 系统吞吐量：单位时间内完成作业的数量。
 
-![image-20210805142159718](https://typora-dzsq.oss-cn-hangzhou.aliyuncs.com/picgoimages-master/image-20210805142159718.png)
+![image-20210805142159718](https://typora-dzsq1.oss-cn-hangzhou.aliyuncs.com/image-20210805142159718.png)
 
 - 周转时间：是指从作业被提交给系统开始，到作业完成为止的时间间隔。
 
@@ -421,7 +421,7 @@
 
 由于在周转时间相同的情况下，运行时间不同的作业，给用户的感觉是不一样的，所以提出了带权周转时间的概念。
 
-![image-20210805142921145](https://typora-dzsq.oss-cn-hangzhou.aliyuncs.com/picgoimages-master/image-20210805142921145.png)
+![image-20210805142921145](https://typora-dzsq1.oss-cn-hangzhou.aliyuncs.com/image-20210805142921145.png)
 
 
 
@@ -436,19 +436,19 @@
 
 #### 1.先来先服务（FCFS，First Come First Serve）
 
-![image-20210805144150920](https://typora-dzsq.oss-cn-hangzhou.aliyuncs.com/picgoimages-master/image-20210805144150920.png)
+![image-20210805144150920](https://typora-dzsq1.oss-cn-hangzhou.aliyuncs.com/image-20210805144150920.png)
 
 #### 2.短作业优先（SJF，Shortest Job First）
 
-![image-20210805145121363](https://typora-dzsq.oss-cn-hangzhou.aliyuncs.com/picgoimages-master/image-20210805145121363.png)
+![image-20210805145121363](https://typora-dzsq1.oss-cn-hangzhou.aliyuncs.com/image-20210805145121363.png)
 
 #### 3.高响应比优先（HRRN，Highest Response Ratio Next）
 
-![image-20210805145558483](https://typora-dzsq.oss-cn-hangzhou.aliyuncs.com/picgoimages-master/image-20210805145558483.png)
+![image-20210805145558483](https://typora-dzsq1.oss-cn-hangzhou.aliyuncs.com/image-20210805145558483.png)
 
 #### 4.三种算法对比
 
-![image-20210805145752847](https://typora-dzsq.oss-cn-hangzhou.aliyuncs.com/picgoimages-master/image-20210805145752847.png)
+![image-20210805145752847](https://typora-dzsq1.oss-cn-hangzhou.aliyuncs.com/image-20210805145752847.png)
 
 注:这几种算法主要关心对用户的公平性、平均周转时间、平均等待时间等评价系统整体性能的指标，但是不关心“响应时间”，也并不区分任务的紧急程度，因此对于用户来说，交互性很糟糕。**因此这三种算法一般适合用于早期的批处理系统**，当然，FCFS算法也常结合其他的算法使用，在现在也扮演着很重要的角色。而适合用于交互式系统的调度算法将在下个小节介绍...
 
@@ -456,7 +456,7 @@
 
 #### 1.时间片轮转调度（RR，Round-Robin）
 
-![image-20210805151053159](https://typora-dzsq.oss-cn-hangzhou.aliyuncs.com/picgoimages-master/image-20210805151053159.png)
+![image-20210805151053159](https://typora-dzsq1.oss-cn-hangzhou.aliyuncs.com/image-20210805151053159.png)
 
 
 
@@ -466,19 +466,19 @@
 
 #### 2.优先级调度算法
 
-![image-20210805152056532](https://typora-dzsq.oss-cn-hangzhou.aliyuncs.com/picgoimages-master/image-20210805152056532.png)
+![image-20210805152056532](https://typora-dzsq1.oss-cn-hangzhou.aliyuncs.com/image-20210805152056532.png)
 
-![image-20210805152129027](https://typora-dzsq.oss-cn-hangzhou.aliyuncs.com/picgoimages-master/image-20210805152129027.png)
+![image-20210805152129027](https://typora-dzsq1.oss-cn-hangzhou.aliyuncs.com/image-20210805152129027.png)
 
 #### 3.多级反馈队列调度算法
 
 
 
-![image-20210805152958697](https://typora-dzsq.oss-cn-hangzhou.aliyuncs.com/picgoimages-master/image-20210805152958697.png)
+![image-20210805152958697](https://typora-dzsq1.oss-cn-hangzhou.aliyuncs.com/image-20210805152958697.png)
 
 - 通过下边的例子来加深理解
 
-![image-20210805153054972](https://typora-dzsq.oss-cn-hangzhou.aliyuncs.com/picgoimages-master/image-20210805153054972.png)
+![image-20210805153054972](https://typora-dzsq1.oss-cn-hangzhou.aliyuncs.com/image-20210805153054972.png)
 
 #### 4.总结
 
@@ -490,7 +490,7 @@
 
 - 通过进程通信——管道通信的例子来了解什么是进程同步。
 
-![image-20210805153649199](https://typora-dzsq.oss-cn-hangzhou.aliyuncs.com/picgoimages-master/image-20210805153649199.png)
+![image-20210805153649199](https://typora-dzsq1.oss-cn-hangzhou.aliyuncs.com/image-20210805153649199.png)
 
 读进程和写进程并发地运行，由于并发必然导致异步性，因此“写数据”和“读数据”两个操作执行的先后顺序是不确定的。而实际应用中，又必须按照“写数据→读数据”的顺序来执行的。**如何解决这种异步问题，就是“进程同步”所讨论的内容。**
 
@@ -505,11 +505,11 @@
 - 对临界资源的访问，必须互斥地进行。互斥，亦称间接制约关系。
 - **进程互斥指当一个进程访问某临界资源时，另一个想要访问该临界资源的进程必须等待。当前访问临界资源的进程访问结束，释放该资源之后，另一个进程才能去访问临界资源。**
 
-![image-20210805154317605](https://typora-dzsq.oss-cn-hangzhou.aliyuncs.com/picgoimages-master/image-20210805154317605.png)
+![image-20210805154317605](https://typora-dzsq1.oss-cn-hangzhou.aliyuncs.com/image-20210805154317605.png)
 
 对临界资源的互斥访问，可以在逻辑上分为如下四个部分:
 
-![image-20210805154539614](https://typora-dzsq.oss-cn-hangzhou.aliyuncs.com/picgoimages-master/image-20210805154539614.png)
+![image-20210805154539614](https://typora-dzsq1.oss-cn-hangzhou.aliyuncs.com/image-20210805154539614.png)
 
 
 
@@ -528,7 +528,7 @@
 
 > 代码实现
 
-![image-20210805155502678](https://typora-dzsq.oss-cn-hangzhou.aliyuncs.com/picgoimages-master/image-20210805155502678.png)
+![image-20210805155502678](https://typora-dzsq1.oss-cn-hangzhou.aliyuncs.com/image-20210805155502678.png)
 
 > 解释
 
@@ -545,20 +545,20 @@ turn表示当前允许进入临界区的进程号，而只有当前允许进入�
 
 算法思想:设置一个布尔型数组flag[]，数组中各个元素用来标记各进程想进入临界区的意愿，比如“flag[0] =ture”意味着0号进程 P0现在想要进入临界区。每个进程在进入临界区之前先检查当前有没有别的进程想进入临界区，如果没有，则把自身对应的标志flag[li]设为true，之后开始访问临界区。
 
-![image-20210805160140406](https://typora-dzsq.oss-cn-hangzhou.aliyuncs.com/picgoimages-master/image-20210805160140406.png)
+![image-20210805160140406](https://typora-dzsq1.oss-cn-hangzhou.aliyuncs.com/image-20210805160140406.png)
 
 若按照①⑤②⑥③⑦....的顺序执行，P0和P1将会同时访问临界区。因此，**双标志先检查法的主要问题是:违反“忙则等待”原则。**
 原因在于，进入区的“检查”和“上锁”两个处理不是一气呵成的。“检查”后，“上锁”前可能发生进程切换。
 
 #### 3.双标志后检查法
 
-![image-20210805160459552](https://typora-dzsq.oss-cn-hangzhou.aliyuncs.com/picgoimages-master/image-20210805160459552.png)
+![image-20210805160459552](https://typora-dzsq1.oss-cn-hangzhou.aliyuncs.com/image-20210805160459552.png)
 
 #### 4.Peterson算法
 
 算法思想:双标志后检查法中，两个进程都争着想进入临界区，但是谁也不让谁，最后谁都无法进入临界区。Gary L.Peterson想到了一种方法，**如果双方都争着想进入临界区，那可以让进程尝试“孔融让梨”，主动让对方先使用临界区。**
 
-![image-20210805161159117](https://typora-dzsq.oss-cn-hangzhou.aliyuncs.com/picgoimages-master/image-20210805161159117.png)
+![image-20210805161159117](https://typora-dzsq1.oss-cn-hangzhou.aliyuncs.com/image-20210805161159117.png)
 
 - Peterson算法用软件方法解决了**进程互斥问题，遵循了空闲让进、忙则等待、有限等待**三个原则，但是依然未遵循让权等待的原则。
 - Peterson算法相较于之前三种软件解决方案来说，是最好的，但依然不够好。
@@ -567,15 +567,15 @@ turn表示当前允许进入临界区的进程号，而只有当前允许进入�
 
 #### 1.中断屏蔽方法
 
-![image-20210805163248064](https://typora-dzsq.oss-cn-hangzhou.aliyuncs.com/picgoimages-master/image-20210805163248064.png)
+![image-20210805163248064](https://typora-dzsq1.oss-cn-hangzhou.aliyuncs.com/image-20210805163248064.png)
 
 #### 2.TestAndSet指令
 
-![image-20210805163700544](https://typora-dzsq.oss-cn-hangzhou.aliyuncs.com/picgoimages-master/image-20210805163700544.png)
+![image-20210805163700544](https://typora-dzsq1.oss-cn-hangzhou.aliyuncs.com/image-20210805163700544.png)
 
 #### 3.Swap指令
 
-![image-20210805163905058](https://typora-dzsq.oss-cn-hangzhou.aliyuncs.com/picgoimages-master/image-20210805163905058.png)
+![image-20210805163905058](https://typora-dzsq1.oss-cn-hangzhou.aliyuncs.com/image-20210805163905058.png)
 
 ### 15.信号量机制
 
@@ -584,7 +584,7 @@ turn表示当前允许进入临界区的进程号，而只有当前允许进入�
 - 用户进程可以通过使用操作系统提供的**一对原语**来对信号量进行操作，从而很方便的实现了进程互斥、进程同步。
 - **信号量其实就是一个变量（可以是一个整数，也可以是更复杂的记录型变量)，**可以用一个信号量来表示系统中某种资源的数量，比如:系统中只有一台打印机，就可以设置一个初值为1的信号量。
 - 原语是一种特殊的程序段，其执行只能一气呵成，不可被中断。==原语是由关中断/开中断指令实现的。==
-- 一对原语: wait(S)原语和 signal(S)原语，可以把原语理解为我们自己写的函数，函数名分别为 wait和 signal，括号里的信号量s其实就是函数调用时传入的一个参数。
+- 一对原语: wait S)原语和 signal(S)原语，可以把原语理解为我们自己写的函数，函数名分别为 wait和 signal，括号里的信号量s其实就是函数调用时传入的一个参数。
 - wait、signal原语常简称为P、V操作（来自荷兰语proberen和 verhogen)。因此，做题的时候常把wait(S)、 signal(S)两个操作分别写为P(S)、V\(S)。
 
 #### 2.整型信号量
@@ -595,13 +595,13 @@ turn表示当前允许进入临界区的进程号，而只有当前允许进入�
 
 下面以打印机为例：
 
-![image-20210806131030861](https://typora-dzsq.oss-cn-hangzhou.aliyuncs.com/picgoimages-master/image-20210806131030861.png)
+![image-20210806131030861](https://typora-dzsq1.oss-cn-hangzhou.aliyuncs.com/image-20210806131030861.png)
 
 #### 3.记录型信号量
 
 整型信号量的缺陷是存在“忙等”问题，因此人们又提出了“记录型信号量”，即用**记录型数据结构表示的信号量**。
 
-![image-20210806131433220](https://typora-dzsq.oss-cn-hangzhou.aliyuncs.com/picgoimages-master/image-20210806131433220.png)
+![image-20210806131433220](https://typora-dzsq1.oss-cn-hangzhou.aliyuncs.com/image-20210806131433220.png)
 
 
 
@@ -614,7 +614,7 @@ turn表示当前允许进入临界区的进程号，而只有当前允许进入�
 3. 在临界区之前执行P(mutex)
 4. 在临界区之后执行V(mutex)
 
-![image-20210806132725957](https://typora-dzsq.oss-cn-hangzhou.aliyuncs.com/picgoimages-master/image-20210806132725957.png)
+![image-20210806132725957](https://typora-dzsq1.oss-cn-hangzhou.aliyuncs.com/image-20210806132725957.png)
 
 注意： 对不同的临界资源（如摄像头，打印机）需要设置不同的互斥信号量。
 
@@ -633,7 +633,7 @@ turn表示当前允许进入临界区的进程号，而只有当前允许进入�
 
 下面通过一个例子来解释，要求：进程2的代码4必须在进程1的代码2之后执行。
 
-![image-20210806133559929](https://typora-dzsq.oss-cn-hangzhou.aliyuncs.com/picgoimages-master/image-20210806133559929.png)
+![image-20210806133559929](https://typora-dzsq1.oss-cn-hangzhou.aliyuncs.com/image-20210806133559929.png)
 
 #### 3.信号量机制实现前驱关系
 
@@ -644,7 +644,7 @@ turn表示当前允许进入临界区的进程号，而只有当前允许进入�
 2. 在“前操作”之后对相应的同步变量执行V操作
 3. 在“后操作”之前对相应的同步变量执行Р操作
 
-![image-20210806133958251](https://typora-dzsq.oss-cn-hangzhou.aliyuncs.com/picgoimages-master/image-20210806133958251.png)
+![image-20210806133958251](https://typora-dzsq1.oss-cn-hangzhou.aliyuncs.com/image-20210806133958251.png)
 
 
 
@@ -659,23 +659,23 @@ turn表示当前允许进入临界区的进程号，而只有当前允许进入�
 - 只有缓冲区不空时，消费者才能从中取出产品，否则必须等待。
 - 缓冲区是临界资源，各进程必须互斥地访问。
 
-![image-20210806134848101](https://typora-dzsq.oss-cn-hangzhou.aliyuncs.com/picgoimages-master/image-20210806134848101.png)
+![image-20210806134848101](https://typora-dzsq1.oss-cn-hangzhou.aliyuncs.com/image-20210806134848101.png)
 
 
 
 #### 2.问题分析
 
-![image-20210806134953024](https://typora-dzsq.oss-cn-hangzhou.aliyuncs.com/picgoimages-master/image-20210806134953024.png)
+![image-20210806134953024](https://typora-dzsq1.oss-cn-hangzhou.aliyuncs.com/image-20210806134953024.png)
 
 #### 3.如何实现
 
-![image-20210806135800310](https://typora-dzsq.oss-cn-hangzhou.aliyuncs.com/picgoimages-master/image-20210806135800310.png)
+![image-20210806135800310](https://typora-dzsq1.oss-cn-hangzhou.aliyuncs.com/image-20210806135800310.png)
 
 
 
 #### 4.能够改变相邻P，V的顺序
 
-![image-20210806135911104](https://typora-dzsq.oss-cn-hangzhou.aliyuncs.com/picgoimages-master/image-20210806135911104.png)
+![image-20210806135911104](https://typora-dzsq1.oss-cn-hangzhou.aliyuncs.com/image-20210806135911104.png)
 
 ### 18.多生产者——多消费者
 
@@ -683,11 +683,11 @@ turn表示当前允许进入临界区的进程号，而只有当前允许进入�
 
 桌子上有一只盘子，每次只能向其中放入一个水果。爸爸专向盘子中放苹果，妈妈专向盘子中放橘子，儿子专等着吃盘子中的橘子，女儿专等着吃盘子中的苹果。只有盘子空时，爸爸或妈妈才可向盘子中放一个水果。仅当盘子中有自己需要的水果时，儿子或女儿可以从盘子中取出水果。用PV操作实现上述过程。
 
-![image-20210806140946552](https://typora-dzsq.oss-cn-hangzhou.aliyuncs.com/picgoimages-master/image-20210806140946552.png)
+![image-20210806140946552](https://typora-dzsq1.oss-cn-hangzhou.aliyuncs.com/image-20210806140946552.png)
 
 #### 2.如何实现
 
-![image-20210806141024230](https://typora-dzsq.oss-cn-hangzhou.aliyuncs.com/picgoimages-master/image-20210806141024230.png)
+![image-20210806141024230](https://typora-dzsq1.oss-cn-hangzhou.aliyuncs.com/image-20210806141024230.png)
 
 问题：可不可以不使用问题信号量？
 
@@ -708,11 +708,11 @@ turn表示当前允许进入临界区的进程号，而只有当前允许进入�
 
 假设一个系统有三个抽烟者进程和一个供应者进程。每个抽烟者不停地卷烟并抽掉它，但是要卷起并抽掉一支烟，抽烟者需要有三种材料:烟草、纸和胶水。三个抽烟者中，第一个拥有烟草、第二个拥有纸、第三个拥有胶水。供应者进程无限地提供三种材料，供应者每次将两种材料放桌子上，拥有剩下那种材料的抽烟者卷一根烟并抽掉它，并给供应者进程一个信号告诉完成了，供应者就会放另外两种材料再桌上，这个过程一直重复(让三个抽烟者轮流地抽烟)。
 
-![image-20210807131831561](https://typora-dzsq.oss-cn-hangzhou.aliyuncs.com/picgoimages-master/image-20210807131831561.png)
+![image-20210807131831561](https://typora-dzsq1.oss-cn-hangzhou.aliyuncs.com/image-20210807131831561.png)
 
 #### 2.如何解决
 
-![image-20210807131924674](https://typora-dzsq.oss-cn-hangzhou.aliyuncs.com/picgoimages-master/image-20210807131924674.png)
+![image-20210807131924674](https://typora-dzsq1.oss-cn-hangzhou.aliyuncs.com/image-20210807131924674.png)
 
 ### 20.读者——写者问题
 
@@ -728,15 +728,15 @@ turn表示当前允许进入临界区的进程号，而只有当前允许进入�
 
 ④写者执行写操作前，应让已有的读者和写者全部退出。
 
-![image-20210807133416464](https://typora-dzsq.oss-cn-hangzhou.aliyuncs.com/picgoimages-master/image-20210807133416464.png)
+![image-20210807133416464](https://typora-dzsq1.oss-cn-hangzhou.aliyuncs.com/image-20210807133416464.png)
 
 #### 2.如何实现
 
-![image-20210807133502764](https://typora-dzsq.oss-cn-hangzhou.aliyuncs.com/picgoimages-master/image-20210807133502764.png)
+![image-20210807133502764](https://typora-dzsq1.oss-cn-hangzhou.aliyuncs.com/image-20210807133502764.png)
 
 - 潜在的问题：只要读进程还在读，写进程就要一直堵塞等待，可能会饿死。因此在这种算法中，读进程优先。下面来实现“ 先来先服务”算法，这样就不会导致写进程饿死。
 
-![image-20210807133533828](https://typora-dzsq.oss-cn-hangzhou.aliyuncs.com/picgoimages-master/image-20210807133533828.png)
+![image-20210807133533828](https://typora-dzsq1.oss-cn-hangzhou.aliyuncs.com/image-20210807133533828.png)
 
 #### 3.总结
 
@@ -751,7 +751,7 @@ turn表示当前允许进入临界区的进程号，而只有当前允许进入�
 
 一张圆桌上坐着5名哲学家，每两个哲学家之间的桌上摆一根筷子，桌子的中间是一碗米饭。哲学家们倾注毕生的精力用于思考和进餐，哲学家在思考时，并不影响他人。只有当哲学家饥饿时，才试图拿起左、右两根筷子（一根一根地拿起)。如果筷子已在他人手上，则需等待。饥饿的哲学家只有同时拿起两根筷子才可以开始进餐，当进餐完毕后，放下筷子继续思考。
 
-![image-20210807134907136](https://typora-dzsq.oss-cn-hangzhou.aliyuncs.com/picgoimages-master/image-20210807134907136.png)
+![image-20210807134907136](https://typora-dzsq1.oss-cn-hangzhou.aliyuncs.com/image-20210807134907136.png)
 
 #### 2.问题分析
 
@@ -764,7 +764,7 @@ turn表示当前允许进入临界区的进程号，而只有当前允许进入�
 
 - 如果使用下图所示的方法，则会导致死锁问题。
 
-![image-20210807135145340](https://typora-dzsq.oss-cn-hangzhou.aliyuncs.com/picgoimages-master/image-20210807135145340.png)
+![image-20210807135145340](https://typora-dzsq1.oss-cn-hangzhou.aliyuncs.com/image-20210807135145340.png)
 
 - 那么如何解决呢？
 
@@ -776,7 +776,7 @@ turn表示当前允许进入临界区的进程号，而只有当前允许进入�
 
 下面用代码实现第三种方式。
 
-![image-20210807135344301](https://typora-dzsq.oss-cn-hangzhou.aliyuncs.com/picgoimages-master/image-20210807135344301.png)
+![image-20210807135344301](https://typora-dzsq1.oss-cn-hangzhou.aliyuncs.com/image-20210807135344301.png)
 
 ### 22.管程
 
@@ -806,7 +806,7 @@ turn表示当前允许进入临界区的进程号，而只有当前允许进入�
 
 #### 3. java中类似于管程的机制（单例模式）
 
-![image-20210807141404776](https://typora-dzsq.oss-cn-hangzhou.aliyuncs.com/picgoimages-master/image-20210807141404776.png)
+![image-20210807141404776](https://typora-dzsq1.oss-cn-hangzhou.aliyuncs.com/image-20210807141404776.png)
 
 ### 23.死锁
 
@@ -822,7 +822,7 @@ turn表示当前允许进入临界区的进程号，而只有当前允许进入�
 - 饥饿:由于长期得不到想要的资源，某进程无法向前推进的现象。比如:在短进程优先（SPF）算法中，若有源源不断的短进程到来，则长进程将一直得不到处理机，从而发生长进程“饥饿”。
 - 死循环:某进程执行过程中一直跳不出某个循环的现象。有时是因为程序逻辑bug 导致的，有时是程序员故意设计的。
 
-![image-20210807142049088](https://typora-dzsq.oss-cn-hangzhou.aliyuncs.com/picgoimages-master/image-20210807142049088.png)
+![image-20210807142049088](https://typora-dzsq1.oss-cn-hangzhou.aliyuncs.com/image-20210807142049088.png)
 
 #### 3.死锁产生的必要条件
 
@@ -858,15 +858,15 @@ turn表示当前允许进入临界区的进程号，而只有当前允许进入�
 
 ### 24.预防死锁
 
-![image-20210807144115187](https://typora-dzsq.oss-cn-hangzhou.aliyuncs.com/picgoimages-master/image-20210807144115187.png)
+![image-20210807144115187](https://typora-dzsq1.oss-cn-hangzhou.aliyuncs.com/image-20210807144115187.png)
 
 ### 25.避免死锁
 
 #### 11.什么是安全序列
 
-![image-20210807145513416](https://typora-dzsq.oss-cn-hangzhou.aliyuncs.com/picgoimages-master/image-20210807145513416.png)
+![image-20210807145513416](https://typora-dzsq1.oss-cn-hangzhou.aliyuncs.com/image-20210807145513416.png)
 
-![image-20210807145554354](https://typora-dzsq.oss-cn-hangzhou.aliyuncs.com/picgoimages-master/image-20210807145554354.png)
+![image-20210807145554354](https://typora-dzsq1.oss-cn-hangzhou.aliyuncs.com/image-20210807145554354.png)
 
 
 
@@ -912,7 +912,7 @@ Max - Allocation = Need矩阵表示各进程最多还需要多少资源
 ①用某种数据结构来保存资源的请求和分配信息;
 ②提供一种算法，利用上述信息来检测系统是否已进入死锁状态。
 
-![image-20210807151232864](https://typora-dzsq.oss-cn-hangzhou.aliyuncs.com/picgoimages-master/image-20210807151232864.png)
+![image-20210807151232864](https://typora-dzsq1.oss-cn-hangzhou.aliyuncs.com/image-20210807151232864.png)
 
 如果系统中剩余的可用资源数足够满足进程的需求，那么这个进程暂时是不会阻塞的，可以顺利地执行下去。如果这个进程执行结束了把资源归还系统，就可能使某些正在等待资源的进程被激活，并顺利地执行下去。相应的，这些被激活的进程执行完了之后又会归还一些资源，这样可能又会激活另外一些阻塞的进程.
 **如果按上述过程分析，最终能消除所有边，就称这个图是可完全简化的。此时一定没有发生死锁（相当于能找到一个安全序列)。**
@@ -946,7 +946,7 @@ Max - Allocation = Need矩阵表示各进程最多还需要多少资源
 
 **内存是用于存放数据的硬件。程序执行前需要先放到内存中才能被CPU处理。**
 
-![image-20210807162229945](https://typora-dzsq.oss-cn-hangzhou.aliyuncs.com/picgoimages-master/image-20210807162229945.png)
+![image-20210807162229945](https://typora-dzsq1.oss-cn-hangzhou.aliyuncs.com/image-20210807162229945.png)
 
 > 相对地址和绝对地址
 
@@ -957,7 +957,7 @@ Eg: 编译时只需确定变量x存放的相对地址是100（也就是说相对
 
 > 写程序到程序运行
 
-![image-20210807162523347](https://typora-dzsq.oss-cn-hangzhou.aliyuncs.com/picgoimages-master/image-20210807162523347.png)
+![image-20210807162523347](https://typora-dzsq1.oss-cn-hangzhou.aliyuncs.com/image-20210807162523347.png)
 
 ### 2.内存管理
 
@@ -967,7 +967,7 @@ Eg: 编译时只需确定变量x存放的相对地址是100（也就是说相对
 2. 操作系统需要提供某种技术从逻辑上对内存空间进行扩充。
 3. 操作系统需要提供地址转换功能，负责程序的逻辑地址与物理地址的转换
 
-![image-20210808144126553](https://typora-dzsq.oss-cn-hangzhou.aliyuncs.com/picgoimages-master/image-20210808144126553.png)
+![image-20210808144126553](https://typora-dzsq1.oss-cn-hangzhou.aliyuncs.com/image-20210808144126553.png)
 
 4. 操作系统需要提供内存保护功能。保证各进程在各自存储空间内运行，互不干扰
 
@@ -975,15 +975,15 @@ Eg: 编译时只需确定变量x存放的相对地址是100（也就是说相对
 
 方法一:在CPU中设置一对上、下限寄存器，存放进程的上、下限地址。进程的指令要访问某个地址时，CPU检查是否越界。
 
-![image-20210808144249365](https://typora-dzsq.oss-cn-hangzhou.aliyuncs.com/picgoimages-master/image-20210808144249365.png)
+![image-20210808144249365](https://typora-dzsq1.oss-cn-hangzhou.aliyuncs.com/image-20210808144249365.png)
 
 方法二:采用重定位寄存器（又称基址寄存器）和界地址寄存器（又称限长寄存器）进行越界检查。重定位寄存器中存放的是进程的起始物理地址。界地址寄存器中存放的是进程的最大逻辑地址。
 
-![image-20210808144341286](https://typora-dzsq.oss-cn-hangzhou.aliyuncs.com/picgoimages-master/image-20210808144341286.png)
+![image-20210808144341286](https://typora-dzsq1.oss-cn-hangzhou.aliyuncs.com/image-20210808144341286.png)
 
 ### 3.覆盖和交换
 
-![image-20210808144501243](https://typora-dzsq.oss-cn-hangzhou.aliyuncs.com/picgoimages-master/image-20210808144501243.png)
+![image-20210808144501243](https://typora-dzsq1.oss-cn-hangzhou.aliyuncs.com/image-20210808144501243.png)
 
 
 
@@ -992,9 +992,9 @@ Eg: 编译时只需确定变量x存放的相对地址是100（也就是说相对
 覆盖技术的思想 : **将程序分为多个段（多个模块）**。常用的段常驻内存，不常用的段在需要时调入内存。
 内存中分为一个“固定区”和若干个“覆盖区”。需要常驻内存的段放在“固定区”中，调入后就不再调出（除非运行结束)不常用的段放在“覆盖区”，需要用到时调入内存，用不到时调出内存。
 
-![](https://typora-dzsq.oss-cn-hangzhou.aliyuncs.com/picgoimages-master/image-20210808151012190.png)
+![](https://typora-dzsq1.oss-cn-hangzhou.aliyuncs.com/image-20210808151012190.png)
 
-![image-20210808151012190](https://typora-dzsq.oss-cn-hangzhou.aliyuncs.com/picgoimages-master/image-20210808151012190.png)
+![image-20210808151012190](https://typora-dzsq1.oss-cn-hangzhou.aliyuncs.com/image-20210808151012190.png)
 
 必须由程序员声明覆盖结构，操作系统完成自动覆盖。**缺点:对用户不透明，增加了用户编程负担。**覆盖技术只用于早期的操作系统中，现在已成为历史。
 
@@ -1002,7 +1002,7 @@ Eg: 编译时只需确定变量x存放的相对地址是100（也就是说相对
 
 交换（对换）技术的设计思想: **内存空间紧张时，系统将内存中某些进程暂时换出外存，把外存中某些已具备运行条件的进程换入内存（进程在内存与磁盘间动态调度）**。之前讲的中级调度（内存调度）就是为这个服务的。
 
-![image-20210808151250246](https://typora-dzsq.oss-cn-hangzhou.aliyuncs.com/picgoimages-master/image-20210808151250246.png)
+![image-20210808151250246](https://typora-dzsq1.oss-cn-hangzhou.aliyuncs.com/image-20210808151250246.png)
 
 1.应该在外存（磁盘）的什么位置保存被换出的进程?
 
@@ -1022,7 +1022,7 @@ Eg: 编译时只需确定变量x存放的相对地址是100（也就是说相对
 
 连续分配：指为用户进程分配的必须是一个连续的内存空间。
 
-![image-20210808151616403](https://typora-dzsq.oss-cn-hangzhou.aliyuncs.com/picgoimages-master/image-20210808151616403.png)
+![image-20210808151616403](https://typora-dzsq1.oss-cn-hangzhou.aliyuncs.com/image-20210808151616403.png)
 
 #### 1.单一连续分配
 
@@ -1031,13 +1031,13 @@ Eg: 编译时只需确定变量x存放的相对地址是100（也就是说相对
 - 优点: 实现简单 ;无外部碎片;可以采用覆盖技术扩充内存;不一定需要采取内存保护（eg:早期的 PC操作系统MS-DOS)。
 - 缺点:只能用于单用户、单任务的操作系统中;有内部碎片;存储器利用率极低。
 
-![image-20210808153202643](https://typora-dzsq.oss-cn-hangzhou.aliyuncs.com/picgoimages-master/image-20210808153202643.png)
+![image-20210808153202643](https://typora-dzsq1.oss-cn-hangzhou.aliyuncs.com/image-20210808153202643.png)
 
 #### 2.固定分区分配
 
-![image-20210808153255068](https://typora-dzsq.oss-cn-hangzhou.aliyuncs.com/picgoimages-master/image-20210808153255068.png)
+![image-20210808153255068](https://typora-dzsq1.oss-cn-hangzhou.aliyuncs.com/image-20210808153255068.png)
 
-![image-20210808153337606](https://typora-dzsq.oss-cn-hangzhou.aliyuncs.com/picgoimages-master/image-20210808153337606.png)
+![image-20210808153337606](https://typora-dzsq1.oss-cn-hangzhou.aliyuncs.com/image-20210808153337606.png)
 
 #### 3.动态分区分配
 
@@ -1047,7 +1047,7 @@ Eg: 编译时只需确定变量x存放的相对地址是100（也就是说相对
 
 1. 系统要用什么样的数据结构记录内存的使用情况?
 
-![image-20210808153616151](https://typora-dzsq.oss-cn-hangzhou.aliyuncs.com/picgoimages-master/image-20210808153616151.png)
+![image-20210808153616151](https://typora-dzsq1.oss-cn-hangzhou.aliyuncs.com/image-20210808153616151.png)
 
 2. 当很多个空闲分区都能满足需求时,应该选择哪个分区进行分配?
 
@@ -1057,11 +1057,11 @@ Eg: 编译时只需确定变量x存放的相对地址是100（也就是说相对
 
 - 如何分配  -----------> 使用动态分区算法之后，修改数据结构即可。
 
-![image-20210808153849729](https://typora-dzsq.oss-cn-hangzhou.aliyuncs.com/picgoimages-master/image-20210808153849729.png)
+![image-20210808153849729](https://typora-dzsq1.oss-cn-hangzhou.aliyuncs.com/image-20210808153849729.png)
 
 - 如何回收-------------------------------> 牢记一点即可，==会把相邻的空闲区域合并为一个==。
 
-![image-20210808154037814](https://typora-dzsq.oss-cn-hangzhou.aliyuncs.com/picgoimages-master/image-20210808154037814.png)
+![image-20210808154037814](https://typora-dzsq1.oss-cn-hangzhou.aliyuncs.com/image-20210808154037814.png)
 
 
 
@@ -1081,14 +1081,14 @@ Eg: 编译时只需确定变量x存放的相对地址是100（也就是说相对
 算法思想: 每次都从低地址开始查找，**找到第一个能满足大小的空闲分区**。
 如何实现:空闲分区以地址递增的次序排列。每次分配内存时顺序查找空闲分区链(或空闲分区表），找到大小能满足要求的第一个空闲分区。
 
-![image-20210808155515584](https://typora-dzsq.oss-cn-hangzhou.aliyuncs.com/picgoimages-master/image-20210808155515584.png)
+![image-20210808155515584](https://typora-dzsq1.oss-cn-hangzhou.aliyuncs.com/image-20210808155515584.png)
 
 #### 2.最佳适应算法
 
 算法思想:由于动态分区分配是一种连续分配方式，为各进程分配的空间必须是连续的一整片区域。因此为了保证当“大进程”到来时能有连续的大片空间，可以尽可能多地留下大片的空闲区，即，**优先使用更小的空闲区**。
 如何实现:空闲分区按容量递增次序链接。每次分配内存时顺序查找空闲分区链(或空闲分区表)，找到大小能满足要求的第一个空闲分区。
 
-![image-20210808155644448](https://typora-dzsq.oss-cn-hangzhou.aliyuncs.com/picgoimages-master/image-20210808155644448.png)
+![image-20210808155644448](https://typora-dzsq1.oss-cn-hangzhou.aliyuncs.com/image-20210808155644448.png)
 
 
 
@@ -1098,18 +1098,18 @@ Eg: 编译时只需确定变量x存放的相对地址是100（也就是说相对
 算法思想:为了解决最佳适应算法的问题――即留下太多难以利用的小碎片，可以在**每次分配时优先使用最大的连续空闲区**，这样分配后剩余的空闲区就不会太小，更方便使用。
 如何实现:空闲分区按容量递减次序链接。每次分配内存时顺序查找空闲分区链(或空闲分区表），找到大小能满足要求的第一个空闲分区。
 
-![image-20210808155801357](https://typora-dzsq.oss-cn-hangzhou.aliyuncs.com/picgoimages-master/image-20210808155801357.png)
+![image-20210808155801357](https://typora-dzsq1.oss-cn-hangzhou.aliyuncs.com/image-20210808155801357.png)
 
 #### 4.临近适应算法
 
 算法思想:首次适应算法每次都从链头开始查找的。这可能会导致低地址部分出现很多小的空闲分区，而每次分配查找时，都要经过这些分区，因此也增加了查找的开销。**如果每次都从上次查找结束的位置开始检索，就能解决上述问题。**
 如何实现:空闲分区以地址递增的顺序排列(可排成一个循环链表）。每次分配内存时从上次查找结束的位置开始查找空闲分区链（或空闲分区表），找到大小能满足要求的第一个空闲分区。
 
-![image-20210808160041410](https://typora-dzsq.oss-cn-hangzhou.aliyuncs.com/picgoimages-master/image-20210808160041410.png)
+![image-20210808160041410](https://typora-dzsq1.oss-cn-hangzhou.aliyuncs.com/image-20210808160041410.png)
 
 #### 5.四种算法对比
 
-![image-20210808160008902](https://typora-dzsq.oss-cn-hangzhou.aliyuncs.com/picgoimages-master/image-20210808160008902.png)
+![image-20210808160008902](https://typora-dzsq1.oss-cn-hangzhou.aliyuncs.com/image-20210808160008902.png)
 
 ### 6.基本分页存储管理
 
@@ -1117,7 +1117,7 @@ Eg: 编译时只需确定变量x存放的相对地址是100（也就是说相对
 
 非连续分配:为用户进程分配的可以是一些分散的内存空间。
 
-![image-20210808163001835](https://typora-dzsq.oss-cn-hangzhou.aliyuncs.com/picgoimages-master/image-20210808163001835.png)
+![image-20210808163001835](https://typora-dzsq1.oss-cn-hangzhou.aliyuncs.com/image-20210808163001835.png)
 
 
 
@@ -1151,17 +1151,17 @@ Eg: 编译时只需确定变量x存放的相对地址是100（也就是说相对
    页内偏移量=80 % 50 = 30
    1号页在内存中存放的起始位置450
 
-![image-20210808163353323](https://typora-dzsq.oss-cn-hangzhou.aliyuncs.com/picgoimages-master/image-20210808163353323.png)
+![image-20210808163353323](https://typora-dzsq1.oss-cn-hangzhou.aliyuncs.com/image-20210808163353323.png)
 
 思考: 如何知道该页号对应页面在内存中的起始地址?
 
 操作系统为每一个进程创建一个页表?
 
-![image-20210808163849055](https://typora-dzsq.oss-cn-hangzhou.aliyuncs.com/picgoimages-master/image-20210808163849055.png)
+![image-20210808163849055](https://typora-dzsq1.oss-cn-hangzhou.aliyuncs.com/image-20210808163849055.png)
 
 - 如何理解每个页表项的长度是相同的，页号是“隐含的”？
 
-![image-20210809132717571](https://typora-dzsq.oss-cn-hangzhou.aliyuncs.com/picgoimages-master/image-20210809132717571.png)
+![image-20210809132717571](https://typora-dzsq1.oss-cn-hangzhou.aliyuncs.com/image-20210809132717571.png)
 
 ### 7.基本地址变换机构
 
@@ -1170,7 +1170,7 @@ Eg: 编译时只需确定变量x存放的相对地址是100（也就是说相对
 
 - 执行流程
 
-![image-20210809132912720](https://typora-dzsq.oss-cn-hangzhou.aliyuncs.com/picgoimages-master/image-20210809132912720.png)
+![image-20210809132912720](https://typora-dzsq1.oss-cn-hangzhou.aliyuncs.com/image-20210809132912720.png)
 
 - 页表项长度，页表长度，页面大小
 
@@ -1180,7 +1180,7 @@ Eg: 编译时只需确定变量x存放的相对地址是100（也就是说相对
 
 Eg:假设某系统物理内存大小为4GB，页面大小为4KB，内存总共会被分为2^32/ 2^12=2^20个内存块，因此内存块号的范围应该是0~2^20 - 1。因此至少要20个二进制位才能表示这么多的内存块号，因此至少要3个字节才够(每个字节8个二进制位，3个字节共24个二进制位)。每个块号用三个字节来表示。
 
-![image-20210809133518059](https://typora-dzsq.oss-cn-hangzhou.aliyuncs.com/picgoimages-master/image-20210809133518059.png)
+![image-20210809133518059](https://typora-dzsq1.oss-cn-hangzhou.aliyuncs.com/image-20210809133518059.png)
 
 ### 8.具有快表的地址变换机构
 
@@ -1197,7 +1197,7 @@ Eg:假设某系统物理内存大小为4GB，页面大小为4KB，内存总共�
 
 - 执行流程
 
-![image-20210809134807098](https://typora-dzsq.oss-cn-hangzhou.aliyuncs.com/picgoimages-master/image-20210809134807098.png)
+![image-20210809134807098](https://typora-dzsq1.oss-cn-hangzhou.aliyuncs.com/image-20210809134807098.png)
 
 ### 9.两级页表
 
@@ -1212,11 +1212,11 @@ Eg:假设某系统物理内存大小为4GB，页面大小为4KB，内存总共�
 
 我们可以把页表放在不同的页框中，再用一个表来记录各个各个子页表所在位置，我们把这个表叫做页目录表（外层页表，顶级页表）。
 
-![image-20210809141121083](https://typora-dzsq.oss-cn-hangzhou.aliyuncs.com/picgoimages-master/image-20210809141121083.png)
+![image-20210809141121083](https://typora-dzsq1.oss-cn-hangzhou.aliyuncs.com/image-20210809141121083.png)
 
 #### 2.解决问题二
 
-![image-20210809141302977](https://typora-dzsq.oss-cn-hangzhou.aliyuncs.com/picgoimages-master/image-20210809141302977.png)
+![image-20210809141302977](https://typora-dzsq1.oss-cn-hangzhou.aliyuncs.com/image-20210809141302977.png)
 
 #### 3. 其他细节
 
@@ -1237,13 +1237,13 @@ Eg:假设某系统物理内存大小为4GB，页面大小为4KB，内存总共�
 进程的地址空间:**按照程序自身的逻辑关系划分为若干个段**，每个段都有一个段名（在低级语言中，程序员使用段名来编程)，每段从0开始编址。
 内存分配规则 : 以段为单位进行分配，每个段在内存中占据连续空间，但各段之间可以不相邻。
 
-![image-20210809144740848](https://typora-dzsq.oss-cn-hangzhou.aliyuncs.com/picgoimages-master/image-20210809144740848.png)
+![image-20210809144740848](https://typora-dzsq1.oss-cn-hangzhou.aliyuncs.com/image-20210809144740848.png)
 
 
 
 - 分段系统的逻辑地址结构由段号（段名）和段内地址（段内偏移量）所组成。
 
-![image-20210809144846609](https://typora-dzsq.oss-cn-hangzhou.aliyuncs.com/picgoimages-master/image-20210809144846609.png)
+![image-20210809144846609](https://typora-dzsq1.oss-cn-hangzhou.aliyuncs.com/image-20210809144846609.png)
 
 **段号的位数决定了每个进程最多可以分几个段。**
 
@@ -1251,11 +1251,11 @@ Eg:假设某系统物理内存大小为4GB，页面大小为4KB，内存总共�
 
 #### 2.段表
 
-![image-20210809145109741](https://typora-dzsq.oss-cn-hangzhou.aliyuncs.com/picgoimages-master/image-20210809145109741.png)
+![image-20210809145109741](https://typora-dzsq1.oss-cn-hangzhou.aliyuncs.com/image-20210809145109741.png)
 
 #### 3.段内寻址
 
-![image-20210809145221546](https://typora-dzsq.oss-cn-hangzhou.aliyuncs.com/picgoimages-master/image-20210809145221546.png)
+![image-20210809145221546](https://typora-dzsq1.oss-cn-hangzhou.aliyuncs.com/image-20210809145221546.png)
 
 #### 4.分段，分页对比
 
@@ -1270,19 +1270,19 @@ Eg:假设某系统物理内存大小为4GB，页面大小为4KB，内存总共�
 
 #### 1.分页，分段的优缺点
 
-![image-20210809150649428](https://typora-dzsq.oss-cn-hangzhou.aliyuncs.com/picgoimages-master/image-20210809150649428.png)
+![image-20210809150649428](https://typora-dzsq1.oss-cn-hangzhou.aliyuncs.com/image-20210809150649428.png)
 
 
 
 既然两者都有优缺点，那么可不可以把他们结合起来呢？答案当然是可以的。如下图所示。
 
-![image-20210809150813503](https://typora-dzsq.oss-cn-hangzhou.aliyuncs.com/picgoimages-master/image-20210809150813503.png)
+![image-20210809150813503](https://typora-dzsq1.oss-cn-hangzhou.aliyuncs.com/image-20210809150813503.png)
 
 
 
 #### 2.段页式管理的逻辑结构
 
-![image-20210809150857246](https://typora-dzsq.oss-cn-hangzhou.aliyuncs.com/picgoimages-master/image-20210809150857246.png)
+![image-20210809150857246](https://typora-dzsq1.oss-cn-hangzhou.aliyuncs.com/image-20210809150857246.png)
 
 段号的位数决定了每个进程最多可以分几个段
 
@@ -1292,7 +1292,7 @@ Eg:假设某系统物理内存大小为4GB，页面大小为4KB，内存总共�
 
 #### 3.段内寻址
 
-![image-20210809151045913](https://typora-dzsq.oss-cn-hangzhou.aliyuncs.com/picgoimages-master/image-20210809151045913.png)
+![image-20210809151045913](https://typora-dzsq1.oss-cn-hangzhou.aliyuncs.com/image-20210809151045913.png)
 
 ### 12.虚拟内存
 
@@ -1301,7 +1301,7 @@ Eg:假设某系统物理内存大小为4GB，页面大小为4KB，内存总共�
 - 一次性:作业必须一次性全部装入内存后才能开始运行。这会造成两个问题:①作业很大时，不能全部装入内存，导致大作业无法运行;②当大量作业要求运行时，由于内存无法容纳所有作业，因此只有少量作业能运行，导致多道程序并发度下降。
 - 驻留性:一旦作业被装入内存，就会一直驻留在内存中，直至作业运行结束。事实上，在一个时间段内，只需要访问作业的一小部分数据即可正常运行，这就导致了内存中会驻留大量的、暂时用不到的数据，浪费了宝贵的内存资源。
 
-![image-20210809152229610](https://typora-dzsq.oss-cn-hangzhou.aliyuncs.com/picgoimages-master/image-20210809152229610.png)
+![image-20210809152229610](https://typora-dzsq1.oss-cn-hangzhou.aliyuncs.com/image-20210809152229610.png)
 
 #### 2.虚拟内存的定义和特征
 
@@ -1330,7 +1330,7 @@ Eg:假设某系统物理内存大小为4GB，页面大小为4KB，内存总共�
 
 **虚拟内存的实现需要建立在离散分配的内存管理方式基础上。**
 
-![image-20210809153046973](https://typora-dzsq.oss-cn-hangzhou.aliyuncs.com/picgoimages-master/image-20210809153046973.png)
+![image-20210809153046973](https://typora-dzsq1.oss-cn-hangzhou.aliyuncs.com/image-20210809153046973.png)
 
 ### 13.请求分页管理方式
 
@@ -1345,7 +1345,7 @@ Eg:假设某系统物理内存大小为4GB，页面大小为4KB，内存总共�
 
 因此页表会增加四个字段来上面的信息。
 
-![image-20210809154307694](https://typora-dzsq.oss-cn-hangzhou.aliyuncs.com/picgoimages-master/image-20210809154307694.png)
+![image-20210809154307694](https://typora-dzsq1.oss-cn-hangzhou.aliyuncs.com/image-20210809154307694.png)
 
 #### 2.缺页中断机制
 
@@ -1363,11 +1363,11 @@ Eg:假设某系统物理内存大小为4GB，页面大小为4KB，内存总共�
 
 一条指令在执行期间，可能产生多次缺页中断。(如: copy AtoB，即将逻辑地址A中的数据复制到逻辑地址B，而A、B属于不同的页面，则有可能产生两次中断)
 
-![image-20210809154630244](https://typora-dzsq.oss-cn-hangzhou.aliyuncs.com/picgoimages-master/image-20210809154630244.png)
+![image-20210809154630244](https://typora-dzsq1.oss-cn-hangzhou.aliyuncs.com/image-20210809154630244.png)
 
 #### 3.地址变换
 
-![image-20210809154720385](https://typora-dzsq.oss-cn-hangzhou.aliyuncs.com/picgoimages-master/image-20210809154720385.png)
+![image-20210809154720385](https://typora-dzsq1.oss-cn-hangzhou.aliyuncs.com/image-20210809154720385.png)
 
 
 
@@ -1391,7 +1391,7 @@ Eg:假设某系统物理内存大小为4GB，页面大小为4KB，内存总共�
 
 最佳置换算法可以保证最低的缺页率，但实际上，只有在进程执行的过程中才能知道接下来会访问到的是哪个页面。操作系统无法提前预判页面访问序列。因此，**最佳置换算法是无法实现的**。
 
-![image-20210809161659809](https://typora-dzsq.oss-cn-hangzhou.aliyuncs.com/picgoimages-master/image-20210809161659809.png)
+![image-20210809161659809](https://typora-dzsq1.oss-cn-hangzhou.aliyuncs.com/image-20210809161659809.png)
 
 #### 2.先进先出置换算法
 
@@ -1403,7 +1403,7 @@ Belady异常：当为进程分配的物理块数增大时，缺页次数不减�
 
 **只有FIFO算法会产生Belady异常**。另外，FIFO算法虽然实现简单，但是该算法与进程实际运行时的规律不适应，因为先进入的页面也有可能最经常被访问。因此，**算法性能差。**
 
-![image-20210809161847953](https://typora-dzsq.oss-cn-hangzhou.aliyuncs.com/picgoimages-master/image-20210809161847953.png)
+![image-20210809161847953](https://typora-dzsq1.oss-cn-hangzhou.aliyuncs.com/image-20210809161847953.png)
 
 #### 3.最近最久未使用算法
 
@@ -1411,7 +1411,7 @@ Belady异常：当为进程分配的物理块数增大时，缺页次数不减�
 
 实现方法:赋予每个页面对应的页表项中，用访问字段记录该页面自上次被访问以来所经历的时间t。当需要淘汰一个页面时，选择现有页面中t值最大的，即最近最久未使用的页面。
 
-![image-20210809162117351](https://typora-dzsq.oss-cn-hangzhou.aliyuncs.com/picgoimages-master/image-20210809162117351.png)
+![image-20210809162117351](https://typora-dzsq1.oss-cn-hangzhou.aliyuncs.com/image-20210809162117351.png)
 
 #### 4.时钟置换算法
 
@@ -1421,7 +1421,7 @@ Belady异常：当为进程分配的物理块数增大时，缺页次数不减�
 
 简单的CLOCK 算法实现方法:为每个页面设置一个访问位，再将内存中的页面都通过链接指针链接成一个循环队列。当某页被访问时，其访问位置为1。当需要淘汰一个页面时，只需检查页的访问位。如果是0，就选择该页换出;如果是1，则将它置为0，暂不换出，继续检查下一个页面，若第一轮扫描中所有页面都是1，则将这些页面的访问位依次置为0后，再进行第二轮扫描（第二轮扫描中一定会有访问位为0的页面，**因此简单的CLOCK算法选择一个淘汰页面最多会经过两轮扫描)**
 
-![image-20210809162337421](https://typora-dzsq.oss-cn-hangzhou.aliyuncs.com/picgoimages-master/image-20210809162337421.png)
+![image-20210809162337421](https://typora-dzsq1.oss-cn-hangzhou.aliyuncs.com/image-20210809162337421.png)
 
 #### 5.改进型的时钟置换算法
 
@@ -1436,11 +1436,11 @@ Belady异常：当为进程分配的物理块数增大时，缺页次数不减�
 第四轮:若第三轮扫描失败，则重新扫描，查找第一个（0，1）的帧用于替换。
 由于第二轮已将所有帧的访问位设为0，因此经过第三轮、第四轮扫描一定会有一个帧被选中，因此**改进型CLOCK置换算法选择一个淘汰页面最多会进行四轮扫描**
 
-![image-20210809162555604](https://typora-dzsq.oss-cn-hangzhou.aliyuncs.com/picgoimages-master/image-20210809162555604.png)
+![image-20210809162555604](https://typora-dzsq1.oss-cn-hangzhou.aliyuncs.com/image-20210809162555604.png)
 
 #### 6.五种算法对比
 
-![image-20210809162647669](https://typora-dzsq.oss-cn-hangzhou.aliyuncs.com/picgoimages-master/image-20210809162647669.png)
+![image-20210809162647669](https://typora-dzsq1.oss-cn-hangzhou.aliyuncs.com/image-20210809162647669.png)
 
 ### 15.页面分配策略
 
@@ -1462,7 +1462,7 @@ Belady异常：当为进程分配的物理块数增大时，缺页次数不减�
 
 全局置换:可以将操作系统保留的空闲物理块分配给缺页进程，也可以将别的进程持有的物理块置换到外存，再分配给缺页进程。
 
-![image-20210809164303593](https://typora-dzsq.oss-cn-hangzhou.aliyuncs.com/picgoimages-master/image-20210809164303593.png)
+![image-20210809164303593](https://typora-dzsq1.oss-cn-hangzhou.aliyuncs.com/image-20210809164303593.png)
 
 下面来分别介绍这几种方式。
 
@@ -1484,15 +1484,15 @@ Belady异常：当为进程分配的物理块数增大时，缺页次数不减�
 
 1. 系统拥有足够的对换区空间:页面的调入、调出都是在内存与对换区之间进行，这样可以保证页面的调入、调出速度很快。在进程运行前，需将进程相关的数据从文件区复制到对换区。
 
-![image-20210809165455533](https://typora-dzsq.oss-cn-hangzhou.aliyuncs.com/picgoimages-master/image-20210809165455533.png)
+![image-20210809165455533](https://typora-dzsq1.oss-cn-hangzhou.aliyuncs.com/image-20210809165455533.png)
 
 2. 系统缺少足够的对换区空间:凡是不会被修改的数据都直接从文件区调入，由于这些页面不会被修改，因此换出时不必写回磁盘，下次需要时再从文件区调入即可。对于可能被修改的部分，换出时需写回磁盘对换区，下次需要时再从对换区调入。
 
-![image-20210809165517173](https://typora-dzsq.oss-cn-hangzhou.aliyuncs.com/picgoimages-master/image-20210809165517173.png)
+![image-20210809165517173](https://typora-dzsq1.oss-cn-hangzhou.aliyuncs.com/image-20210809165517173.png)
 
 3. UNIX方式:运行之前进程有关的数据全部放在文件区，故未使用过的页面，都可从文件区调入。若被使用过的页面需要换出，则写回对换区，下次需要时从对换区调入。
 
-![image-20210809165535864](https://typora-dzsq.oss-cn-hangzhou.aliyuncs.com/picgoimages-master/image-20210809165535864.png)
+![image-20210809165535864](https://typora-dzsq1.oss-cn-hangzhou.aliyuncs.com/image-20210809165535864.png)
 
 #### 4.抖动（颠簸）现象，工作集
 
@@ -1508,7 +1508,7 @@ Belady异常：当为进程分配的物理块数增大时，缺页次数不减�
 
 一般来说，驻留集大小不能小于工作集大小，否则进程运行过程中将频繁缺页。
 
-![image-20210809165818657](https://typora-dzsq.oss-cn-hangzhou.aliyuncs.com/picgoimages-master/image-20210809165818657.png)
+![image-20210809165818657](https://typora-dzsq1.oss-cn-hangzhou.aliyuncs.com/image-20210809165818657.png)
 
 ## 4.文件系统
 
@@ -1525,17 +1525,17 @@ Belady异常：当为进程分配的物理块数增大时，缺页次数不减�
 
 - 文件分为有结构文件和无结构文件。
 
-![image-20210810142605554](https://typora-dzsq.oss-cn-hangzhou.aliyuncs.com/picgoimages-master/image-20210810142605554.png)
+![image-20210810142605554](https://typora-dzsq1.oss-cn-hangzhou.aliyuncs.com/image-20210810142605554.png)
 
 
 
 - 操作系统向上（用户和应用程序）提供的功能
 
-![image-20210810142721956](https://typora-dzsq.oss-cn-hangzhou.aliyuncs.com/picgoimages-master/image-20210810142721956.png)
+![image-20210810142721956](https://typora-dzsq1.oss-cn-hangzhou.aliyuncs.com/image-20210810142721956.png)
 
 ### 2.文件的逻辑结构
 
-![image-20210810144248520](https://typora-dzsq.oss-cn-hangzhou.aliyuncs.com/picgoimages-master/image-20210810144248520.png)
+![image-20210810144248520](https://typora-dzsq1.oss-cn-hangzhou.aliyuncs.com/image-20210810144248520.png)
 
 按文件是否有结构分类，可以分为无结构文件、有结构文件两种。
 
@@ -1545,7 +1545,7 @@ Belady异常：当为进程分配的物理块数增大时，缺页次数不减�
 
 我们主要研究有结构文件。
 
-![image-20210810144515415](https://typora-dzsq.oss-cn-hangzhou.aliyuncs.com/picgoimages-master/image-20210810144515415.png)
+![image-20210810144515415](https://typora-dzsq1.oss-cn-hangzhou.aliyuncs.com/image-20210810144515415.png)
 
 #### 1.顺序文件
 
@@ -1553,13 +1553,13 @@ Belady异常：当为进程分配的物理块数增大时，缺页次数不减�
 
 顺序存储又可以分为串结构和顺序结构。
 
-![image-20210810144803262](https://typora-dzsq.oss-cn-hangzhou.aliyuncs.com/picgoimages-master/image-20210810144803262.png)
+![image-20210810144803262](https://typora-dzsq1.oss-cn-hangzhou.aliyuncs.com/image-20210810144803262.png)
 
 
 
 那么这几种存储方式可以快速找到第i个记录对应的地址呢？
 
-![image-20210810145032903](https://typora-dzsq.oss-cn-hangzhou.aliyuncs.com/picgoimages-master/image-20210810145032903.png)
+![image-20210810145032903](https://typora-dzsq1.oss-cn-hangzhou.aliyuncs.com/image-20210810145032903.png)
 
 
 
@@ -1571,7 +1571,7 @@ Belady异常：当为进程分配的物理块数增大时，缺页次数不减�
 
 这时我们可以建立一张索引表来快速找到第i个记录。如图所示：
 
-![image-20210810145421034](https://typora-dzsq.oss-cn-hangzhou.aliyuncs.com/picgoimages-master/image-20210810145421034.png)
+![image-20210810145421034](https://typora-dzsq1.oss-cn-hangzhou.aliyuncs.com/image-20210810145421034.png)
 
 **索引表本身是定长记录的顺序文件。**因此可以快速找到第i个记录对应的索引项。
 
@@ -1593,7 +1593,7 @@ Belady异常：当为进程分配的物理块数增大时，缺页次数不减�
 
 在本例中，学生记录按照学生姓名的开头字母进行分组。每个分组就是一个顺序文件，分组内的记录不需要按关键字排序。
 
-![image-20210810145653881](https://typora-dzsq.oss-cn-hangzhou.aliyuncs.com/picgoimages-master/image-20210810145653881.png)
+![image-20210810145653881](https://typora-dzsq1.oss-cn-hangzhou.aliyuncs.com/image-20210810145653881.png)
 
 #### 4.多级索引顺序文件
 
@@ -1601,15 +1601,15 @@ Belady异常：当为进程分配的物理块数增大时，缺页次数不减�
 
 例如，对于一个含10^6个记录的文件，可先为该文件建立一张低级索引表，每100个记录为一组，故低级索引表中共有10000个表项(即10000个定长记录)，再把这10000个定长记录分组，每组100个，为其建立顶级索引表，故顶级索引表中共有100个表项。
 
-![image-20210810145950405](https://typora-dzsq.oss-cn-hangzhou.aliyuncs.com/picgoimages-master/image-20210810145950405.png)
+![image-20210810145950405](https://typora-dzsq1.oss-cn-hangzhou.aliyuncs.com/image-20210810145950405.png)
 
 ### 3.文件目录
 
-![image-20210810151340203](https://typora-dzsq.oss-cn-hangzhou.aliyuncs.com/picgoimages-master/image-20210810151340203.png)
+![image-20210810151340203](https://typora-dzsq1.oss-cn-hangzhou.aliyuncs.com/image-20210810151340203.png)
 
 - 目录本身就是一种有结构文件，由一条条记录组成。每条记录对应一个放在该目录下的文件。如图所示
 
-![image-20210810151448625](https://typora-dzsq.oss-cn-hangzhou.aliyuncs.com/picgoimages-master/image-20210810151448625.png)
+![image-20210810151448625](https://typora-dzsq1.oss-cn-hangzhou.aliyuncs.com/image-20210810151448625.png)
 
 #### 1.文件控制块（FCB）
 
@@ -1623,21 +1623,21 @@ FCB中包含了文件的基本信息（文件名、物理地址、逻辑结构�
 
 #### 2.单级目录结构
 
-![image-20210810151856934](https://typora-dzsq.oss-cn-hangzhou.aliyuncs.com/picgoimages-master/image-20210810151856934.png)
+![image-20210810151856934](https://typora-dzsq1.oss-cn-hangzhou.aliyuncs.com/image-20210810151856934.png)
 
 #### 3.二级目录结构
 
-![image-20210810151925508](https://typora-dzsq.oss-cn-hangzhou.aliyuncs.com/picgoimages-master/image-20210810151925508.png)
+![image-20210810151925508](https://typora-dzsq1.oss-cn-hangzhou.aliyuncs.com/image-20210810151925508.png)
 
 #### 4.多级目录结构（树形目录结构）
 
-![image-20210810152024749](https://typora-dzsq.oss-cn-hangzhou.aliyuncs.com/picgoimages-master/image-20210810152024749.png)
+![image-20210810152024749](https://typora-dzsq1.oss-cn-hangzhou.aliyuncs.com/image-20210810152024749.png)
 
 树形目录结构可以很方便地对文件进行分类，层次结构清晰，也能够更有效地进行文件的管理和保护。但是，树形结构不便于实现文件的共享。为此，提出了“无环图目录结构”。
 
 #### 5.无环图目录结构
 
-![image-20210810152149951](https://typora-dzsq.oss-cn-hangzhou.aliyuncs.com/picgoimages-master/image-20210810152149951.png)
+![image-20210810152149951](https://typora-dzsq1.oss-cn-hangzhou.aliyuncs.com/image-20210810152149951.png)
 
 可以用不同的文件名指向同一个文件，甚至可以指向同一个目录(共享同一目录下的所有内容）。
 
@@ -1649,7 +1649,7 @@ FCB中包含了文件的基本信息（文件名、物理地址、逻辑结构�
 
 #### 6.索引结点（对FCB的改进）
 
-![image-20210810152356089](https://typora-dzsq.oss-cn-hangzhou.aliyuncs.com/picgoimages-master/image-20210810152356089.png)
+![image-20210810152356089](https://typora-dzsq1.oss-cn-hangzhou.aliyuncs.com/image-20210810152356089.png)
 
 当找到文件名对应的目录项时，才需要将索引结点调入内存，索引结点中记录了文件的各种信息，包括文件在外存中的存放位置，根据“存放位置”即可找到文件。
 
@@ -1657,7 +1657,7 @@ FCB中包含了文件的基本信息（文件名、物理地址、逻辑结构�
 
 ### 4.文件分配方式（文件物理结构）
 
-![image-20210810160612269](https://typora-dzsq.oss-cn-hangzhou.aliyuncs.com/picgoimages-master/image-20210810160612269.png)
+![image-20210810160612269](https://typora-dzsq1.oss-cn-hangzhou.aliyuncs.com/image-20210810160612269.png)
 
 在介绍这些分配方式之前，先介绍一下什么是文件块，磁盘块。
 
@@ -1669,7 +1669,7 @@ FCB中包含了文件的基本信息（文件名、物理地址、逻辑结构�
 
 **用户通过逻辑地址来操作自己的文件，操作系统要负责实现从逻辑地址到物理地址的映射。**
 
-![image-20210810160801866](https://typora-dzsq.oss-cn-hangzhou.aliyuncs.com/picgoimages-master/image-20210810160801866.png)
+![image-20210810160801866](https://typora-dzsq1.oss-cn-hangzhou.aliyuncs.com/image-20210810160801866.png)
 
 #### 1.连续分配
 
@@ -1685,7 +1685,7 @@ FCB中包含了文件的基本信息（文件名、物理地址、逻辑结构�
 
 缺点:不方便文件拓展;存储空间利用率低，会产生磁盘碎片
 
-![image-20210810161040710](https://typora-dzsq.oss-cn-hangzhou.aliyuncs.com/picgoimages-master/image-20210810161040710.png)
+![image-20210810161040710](https://typora-dzsq1.oss-cn-hangzhou.aliyuncs.com/image-20210810161040710.png)
 
 #### 2.链接分配——隐式链接
 
@@ -1701,7 +1701,7 @@ FCB中包含了文件的基本信息（文件名、物理地址、逻辑结构�
 
 结论:采用链式分配（隐式链接）方式的文件，只支持顺序访问，不支持随机访问，查找效率低。另外，指向下一个盘块的指针也需要耗费少量的存储空间。
 
-![image-20210810161314939](https://typora-dzsq.oss-cn-hangzhou.aliyuncs.com/picgoimages-master/image-20210810161314939.png)
+![image-20210810161314939](https://typora-dzsq1.oss-cn-hangzhou.aliyuncs.com/image-20210810161314939.png)
 
 
 
@@ -1721,7 +1721,7 @@ FCB中包含了文件的基本信息（文件名、物理地址、逻辑结构�
 
 显然，显式链接也不会产生外部碎片，也可以很方便地对文件进行拓展。
 
-![image-20210810161613102](https://typora-dzsq.oss-cn-hangzhou.aliyuncs.com/picgoimages-master/image-20210810161613102.png)
+![image-20210810161613102](https://typora-dzsq1.oss-cn-hangzhou.aliyuncs.com/image-20210810161613102.png)
 
 #### 4.两种链接分配方式总结
 
@@ -1749,7 +1749,7 @@ FCB中包含了文件的基本信息（文件名、物理地址、逻辑结构�
 
 但是索引表需要占用一定的存储空间
 
-![image-20210810162255818](https://typora-dzsq.oss-cn-hangzhou.aliyuncs.com/picgoimages-master/image-20210810162255818.png)
+![image-20210810162255818](https://typora-dzsq1.oss-cn-hangzhou.aliyuncs.com/image-20210810162255818.png)
 
 - 如果一个文件的索引表太大，一个磁盘块放不下，那么如何解决呢？
 
@@ -1757,15 +1757,15 @@ FCB中包含了文件的基本信息（文件名、物理地址、逻辑结构�
 
 ①链接方案:如果索引表太大，一个索引块装不下，那么可以将多个索引块链接起来存放。
 
-![image-20210810162649614](https://typora-dzsq.oss-cn-hangzhou.aliyuncs.com/picgoimages-master/image-20210810162649614.png)
+![image-20210810162649614](https://typora-dzsq1.oss-cn-hangzhou.aliyuncs.com/image-20210810162649614.png)
 
 ②多层索引:建立多层索引（原理类似于多级页表)。使第一层索引块指向第二层的索引块。还可根据文件大小的要求再建立第三层、第四层索引块。
 
-![image-20210810162724018](https://typora-dzsq.oss-cn-hangzhou.aliyuncs.com/picgoimages-master/image-20210810162724018.png)
+![image-20210810162724018](https://typora-dzsq1.oss-cn-hangzhou.aliyuncs.com/image-20210810162724018.png)
 
 ③混合索引:多种索引分配方式的结合。例如，一个文件的顶级索引表中，既包含直接地址索引（直接指向数据块），又包含一级间接索引（指向单层索引表)、还包含两级间接索引（指向两层索引表)。
 
-![image-20210810162801596](https://typora-dzsq.oss-cn-hangzhou.aliyuncs.com/picgoimages-master/image-20210810162801596.png)
+![image-20210810162801596](https://typora-dzsq1.oss-cn-hangzhou.aliyuncs.com/image-20210810162801596.png)
 
 > 总结
 
@@ -1777,17 +1777,17 @@ FCB中包含了文件的基本信息（文件名、物理地址、逻辑结构�
 
 #### 6.三种分配方式总结
 
-![image-20210810163334462](https://typora-dzsq.oss-cn-hangzhou.aliyuncs.com/picgoimages-master/image-20210810163334462.png)
+![image-20210810163334462](https://typora-dzsq1.oss-cn-hangzhou.aliyuncs.com/image-20210810163334462.png)
 
 ### 5.对空闲磁盘块的管理（文件存储空间管理）
 
-![image-20210810165416231](https://typora-dzsq.oss-cn-hangzhou.aliyuncs.com/picgoimages-master/image-20210810165416231.png)
+![image-20210810165416231](https://typora-dzsq1.oss-cn-hangzhou.aliyuncs.com/image-20210810165416231.png)
 
 #### 1.文件卷
 
 存储空间的划分:将物理磁盘划分为一个个文件卷(逻辑卷、逻辑盘)。所谓的文件卷就相当于电脑上的C盘，D盘等。
 
-![image-20210810165312412](https://typora-dzsq.oss-cn-hangzhou.aliyuncs.com/picgoimages-master/image-20210810165312412.png)
+![image-20210810165312412](https://typora-dzsq1.oss-cn-hangzhou.aliyuncs.com/image-20210810165312412.png)
 
 #### 2.空闲表法
 
@@ -1797,13 +1797,13 @@ FCB中包含了文件的基本信息（文件名、物理地址、逻辑结构�
 
 如何回收磁盘块:与内存管理中的动态分区分配很类似，当回收某个存储区时需要有四种情况―—①回收区的前后都没有相邻空闲区;②回收区的前后都是空闲区;③回收区前面是空闲区;④回收区后面是空闲区。总之，回收时需要注意表项的合并问题。
 
-![image-20210810165513344](https://typora-dzsq.oss-cn-hangzhou.aliyuncs.com/picgoimages-master/image-20210810165513344.png)
+![image-20210810165513344](https://typora-dzsq1.oss-cn-hangzhou.aliyuncs.com/image-20210810165513344.png)
 
 #### 3.空闲链表法
 
 空闲链表法分为空闲盘块链和空闲盘区链。
 
-![image-20210810165802397](https://typora-dzsq.oss-cn-hangzhou.aliyuncs.com/picgoimages-master/image-20210810165802397.png)
+![image-20210810165802397](https://typora-dzsq1.oss-cn-hangzhou.aliyuncs.com/image-20210810165802397.png)
 
 ##### 1.空闲盘块链
 
@@ -1812,7 +1812,7 @@ FCB中包含了文件的基本信息（文件名、物理地址、逻辑结构�
 - 如何回收:回收的盘块依次挂到链尾，并修改空闲链的链尾指针。
 - 适用于离散分配的物理结构。为文件分配多个盘块时可能要重复多次操作。
 
-![image-20210810170003033](https://typora-dzsq.oss-cn-hangzhou.aliyuncs.com/picgoimages-master/image-20210810170003033.png)
+![image-20210810170003033](https://typora-dzsq1.oss-cn-hangzhou.aliyuncs.com/image-20210810170003033.png)
 
 ##### 2.空闲盘区链
 
@@ -1821,7 +1821,7 @@ FCB中包含了文件的基本信息（文件名、物理地址、逻辑结构�
 - 如何回收:若回收区和某个空闲盘区相邻，则需要将回收区合并到空闲盘区中。若回收区没有和任何空闲区相邻，将回收区作为单独的一个空闲盘区挂到链尾。
 - 离散分配、连续分配都适用。为一个文件分配多个盘块时效率更高
 
-![image-20210810170223448](https://typora-dzsq.oss-cn-hangzhou.aliyuncs.com/picgoimages-master/image-20210810170223448.png)
+![image-20210810170223448](https://typora-dzsq1.oss-cn-hangzhou.aliyuncs.com/image-20210810170223448.png)
 
 #### 4.位示图法
 
@@ -1845,18 +1845,18 @@ b号盘块对应的字号i = b/n，位号j = b%n。
 
 ②将相应二进制位设为“0”。
 
-![image-20210810170334688](https://typora-dzsq.oss-cn-hangzhou.aliyuncs.com/picgoimages-master/image-20210810170334688.png)
+![image-20210810170334688](https://typora-dzsq1.oss-cn-hangzhou.aliyuncs.com/image-20210810170334688.png)
 
 #### 5.成组链接法
 
 空闲表法、空闲链表法不适用于大型文件系统，因为空闲表或空闲链表可能过大。UNIX系统中采用了成组链接法对磁盘空闲块进行管理。
 文件卷的目录区中专门用一个磁盘块作为“超级块”，当系统启动时需要将超级块读入内存。并且要保证内存与外存中的“超级块”数据一致。如图所示。
 
-![image-20210810170623901](https://typora-dzsq.oss-cn-hangzhou.aliyuncs.com/picgoimages-master/image-20210810170623901.png)
+![image-20210810170623901](https://typora-dzsq1.oss-cn-hangzhou.aliyuncs.com/image-20210810170623901.png)
 
 - 超级块中存储的内容
 
-![image-20210810170801760](https://typora-dzsq.oss-cn-hangzhou.aliyuncs.com/picgoimages-master/image-20210810170801760.png)
+![image-20210810170801760](https://typora-dzsq1.oss-cn-hangzhou.aliyuncs.com/image-20210810170801760.png)
 
 
 
@@ -1925,11 +1925,11 @@ b号盘块对应的字号i = b/n，位号j = b%n。
 
 2．将目录项复制到内存中的“打开文件表”中。并将对应表目的编号返回给用户。之后用户使用打开文件表的编号来指明要操作的文件。
 
-![image-20210813142750578](https://typora-dzsq.oss-cn-hangzhou.aliyuncs.com/picgoimages-master/image-20210813142750578.png)
+![image-20210813142750578](https://typora-dzsq1.oss-cn-hangzhou.aliyuncs.com/image-20210813142750578.png)
 
 - 需要注意的是，有两张打开文件表，一个是进程自带的，另一个是系统的（只有一张）。
 
-![image-20210813142335669](https://typora-dzsq.oss-cn-hangzhou.aliyuncs.com/picgoimages-master/image-20210813142335669.png)
+![image-20210813142335669](https://typora-dzsq1.oss-cn-hangzhou.aliyuncs.com/image-20210813142335669.png)
 
 
 
@@ -1974,7 +1974,7 @@ b号盘块对应的字号i = b/n，位号j = b%n。
 
 知识回顾:索引结点，是一种文件目录瘦身策略。由于检索文件时只需用到文件名，因此可以将除了文件名之外的其他信息放到索引结点中。这样目录项就只需要包含文件名、索引结点指针。
 
-![image-20210813144036702](https://typora-dzsq.oss-cn-hangzhou.aliyuncs.com/picgoimages-master/image-20210813144036702.png)
+![image-20210813144036702](https://typora-dzsq1.oss-cn-hangzhou.aliyuncs.com/image-20210813144036702.png)
 
 
 
@@ -1986,7 +1986,7 @@ b号盘块对应的字号i = b/n，位号j = b%n。
 
 当User3访问“ccc”时，操作系统判断文件“ccc”属于Link类型文件，于是会根据其中记录的路径层层查找目录，最终找到User1的目录表中的“aaa”表项，于是就找到了文件1的索引结点。类似于快捷方式。
 
-![image-20210813144244690](https://typora-dzsq.oss-cn-hangzhou.aliyuncs.com/picgoimages-master/image-20210813144244690.png)
+![image-20210813144244690](https://typora-dzsq1.oss-cn-hangzhou.aliyuncs.com/image-20210813144244690.png)
 
 ### 8.文件保护
 
@@ -2006,7 +2006,7 @@ b号盘块对应的字号i = b/n，位号j = b%n。
 Eg:一个最简单的加密算法――异或加密。
 假设用于加密/解密的“密码”为“01001”。
 
-![image-20210813145725112](https://typora-dzsq.oss-cn-hangzhou.aliyuncs.com/picgoimages-master/image-20210813145725112.png)
+![image-20210813145725112](https://typora-dzsq1.oss-cn-hangzhou.aliyuncs.com/image-20210813145725112.png)
 
 优点:保密性强，不需要在系统中存储“密码”。
 
@@ -2016,19 +2016,19 @@ Eg:一个最简单的加密算法――异或加密。
 
 在每个文件的FCB（或索引结点）中增加一个访问控制列表(Access-Control List, ACL)，该表中记录了各个用户可以对该文件执行哪些操作。如图所示：
 
-![image-20210813145849324](https://typora-dzsq.oss-cn-hangzhou.aliyuncs.com/picgoimages-master/image-20210813145849324.png)
+![image-20210813145849324](https://typora-dzsq1.oss-cn-hangzhou.aliyuncs.com/image-20210813145849324.png)
 
 精简的访问列表:以“组”为单位，标记各“组”用户可以对文件执行哪些操作。如:分为系统管理员、文件主、文件主的伙伴、其他用户几个分组。当某用户想要访问文件时，系统会检查该用户所属的分组是否有相应的访问权限。
 
-![image-20210813145938099](https://typora-dzsq.oss-cn-hangzhou.aliyuncs.com/picgoimages-master/image-20210813145938099.png)
+![image-20210813145938099](https://typora-dzsq1.oss-cn-hangzhou.aliyuncs.com/image-20210813145938099.png)
 
 #### 4.总结
 
-![image-20210813150016165](https://typora-dzsq.oss-cn-hangzhou.aliyuncs.com/picgoimages-master/image-20210813150016165.png)
+![image-20210813150016165](https://typora-dzsq1.oss-cn-hangzhou.aliyuncs.com/image-20210813150016165.png)
 
 ### 9.文件的层次结构
 
-![image-20210813150515554](https://typora-dzsq.oss-cn-hangzhou.aliyuncs.com/picgoimages-master/image-20210813150515554.png)
+![image-20210813150515554](https://typora-dzsq1.oss-cn-hangzhou.aliyuncs.com/image-20210813150515554.png)
 
 用一个例子来辅助记忆文件系统的层次结构:
 
@@ -2048,11 +2048,11 @@ Eg:一个最简单的加密算法――异或加密。
 - 磁盘的盘面被划分成一个个磁道。这样的一个“圈”就是一个磁道。
 - 一个磁道又被划分成一个个扇区，每个扇区就是一个“磁盘块”。各个扇区存放的数据量相同（如1KB)。
 
-![image-20210813151311575](https://typora-dzsq.oss-cn-hangzhou.aliyuncs.com/picgoimages-master/image-20210813151311575.png)
+![image-20210813151311575](https://typora-dzsq1.oss-cn-hangzhou.aliyuncs.com/image-20210813151311575.png)
 
 - 所有盘面中相对位置相同的磁道组成柱面。
 
-![image-20210813151500796](https://typora-dzsq.oss-cn-hangzhou.aliyuncs.com/picgoimages-master/image-20210813151500796.png)
+![image-20210813151500796](https://typora-dzsq1.oss-cn-hangzhou.aliyuncs.com/image-20210813151500796.png)
 
 - **可用(柱面号，盘面号，扇区号）来定位任意一个“磁盘块”。**
 - 可根据该地址读取一个“块”
@@ -2062,13 +2062,13 @@ Eg:一个最简单的加密算法――异或加密。
 
 - 磁盘分类
 
-![image-20210813151834210](https://typora-dzsq.oss-cn-hangzhou.aliyuncs.com/picgoimages-master/image-20210813151834210.png)
+![image-20210813151834210](https://typora-dzsq1.oss-cn-hangzhou.aliyuncs.com/image-20210813151834210.png)
 
 ### 11.磁盘调度算法
 
 #### 1.一次磁盘读/写操作需要的时间
 
-![image-20210813155004975](https://typora-dzsq.oss-cn-hangzhou.aliyuncs.com/picgoimages-master/image-20210813155004975.png)
+![image-20210813155004975](https://typora-dzsq1.oss-cn-hangzhou.aliyuncs.com/image-20210813155004975.png)
 
 - **寻找时间**(寻道时间)Ts:在读/写数据前，将磁头移动到指定磁道所花的时间。
   ①启动磁头臂是需要时间的。假设耗时为s;
@@ -2092,41 +2092,41 @@ Eg:一个最简单的加密算法――异或加密。
 
 - 根据进程请求访问磁盘的先后顺序进行调度。
 
-![image-20210813154130996](https://typora-dzsq.oss-cn-hangzhou.aliyuncs.com/picgoimages-master/image-20210813154130996.png)
+![image-20210813154130996](https://typora-dzsq1.oss-cn-hangzhou.aliyuncs.com/image-20210813154130996.png)
 
 #### 3. 最短寻找时间优先（SSTF）
 
 SSTF算法会优先处理的磁道是与当前磁头最近的磁道。可以保证每次的寻道时间最短，但是并不能保证总的寻道时间最短。(其实就是贪心算法的思想，只是选择眼前最优，但是总体未必最优)
 
-![image-20210813154241694](https://typora-dzsq.oss-cn-hangzhou.aliyuncs.com/picgoimages-master/image-20210813154241694.png)
+![image-20210813154241694](https://typora-dzsq1.oss-cn-hangzhou.aliyuncs.com/image-20210813154241694.png)
 
 #### 4.扫描算法（SCAN）
 
 SSTF算法会产生饥饿的原因在于:磁头有可能在一个小区域内来回来去地移动。为了防止这个问题，可以规定，只有磁头移动到最外侧磁道的时候才能往内移动，移动到最内侧磁道的时候才能往外移动。这就是扫描算法（SCAN)的思想。由于磁头移动的方式很像电梯，因此也叫电梯算法。
 
-![image-20210813154355809](https://typora-dzsq.oss-cn-hangzhou.aliyuncs.com/picgoimages-master/image-20210813154355809.png)
+![image-20210813154355809](https://typora-dzsq1.oss-cn-hangzhou.aliyuncs.com/image-20210813154355809.png)
 
 #### 5.LOOK调度算法
 
 扫描算法（SCAN)中，只有到达最边上的磁道时才能改变磁头移动方向，事实上，处理了184号磁道的访问请求之后就不需要再往右移动磁头了。LOOK调度算法就是为了解决这个问题，如果在磁头移动方向上已经没有别的请求，就可以立即改变磁头移动方向。(边移动边观察，因此叫LOOK)。
 
-![image-20210813154445923](https://typora-dzsq.oss-cn-hangzhou.aliyuncs.com/picgoimages-master/image-20210813154445923.png)
+![image-20210813154445923](https://typora-dzsq1.oss-cn-hangzhou.aliyuncs.com/image-20210813154445923.png)
 
 #### 6.循环扫描算法（C—SCAN）
 
 SCAN算法对于各个位置磁道的响应频率不平均，而C-SCAN算法就是为了解决这个问题。规定只有磁头朝某个特定方向移动时才处理磁道访问请求，而返回时直接快速移动至起始端而不处理任何请求。
 
-![image-20210813154603757](https://typora-dzsq.oss-cn-hangzhou.aliyuncs.com/picgoimages-master/image-20210813154603757.png)
+![image-20210813154603757](https://typora-dzsq1.oss-cn-hangzhou.aliyuncs.com/image-20210813154603757.png)
 
 #### 7.C-LOOK调度算法
 
 C-SCAN 算法的主要缺点是只有到达最边上的磁道时才能改变磁头移动方向，并且磁头返回时不一定需要返回到最边缘的磁道上。C-LOOK算法就是为了解决这个问题。如果磁头移动的方向上已经没有磁道访问请求了，就可以立即让磁头返回，并且磁头只需要返回到有磁道访问请求的位置即可。
 
-![image-20210813154656781](https://typora-dzsq.oss-cn-hangzhou.aliyuncs.com/picgoimages-master/image-20210813154656781.png)
+![image-20210813154656781](https://typora-dzsq1.oss-cn-hangzhou.aliyuncs.com/image-20210813154656781.png)
 
 ### 12.减少延迟时间的方法
 
-![image-20210813160340909](https://typora-dzsq.oss-cn-hangzhou.aliyuncs.com/picgoimages-master/image-20210813160340909.png)
+![image-20210813160340909](https://typora-dzsq1.oss-cn-hangzhou.aliyuncs.com/image-20210813160340909.png)
 
 
 
@@ -2137,13 +2137,13 @@ C-SCAN 算法的主要缺点是只有到达最边上的磁道时才能改变磁�
 
 结论:磁头读入一个扇区数据后需要一小段时间处理，如果逻辑上相邻的扇区在物理上也相邻，则读入几个连续的逻辑扇区，可能需要很长的“延迟时间”。
 
-![image-20210813160402020](https://typora-dzsq.oss-cn-hangzhou.aliyuncs.com/picgoimages-master/image-20210813160402020.png)
+![image-20210813160402020](https://typora-dzsq1.oss-cn-hangzhou.aliyuncs.com/image-20210813160402020.png)
 
 #### 1.交替编号
 
 若采用交替编号的策略，即让逻辑上相邻的扇区在物理上有一定的间隔，可以使读取连续的逻辑扇区所需要的延迟时间更小。如图所示。
 
-![image-20210813160529803](https://typora-dzsq.oss-cn-hangzhou.aliyuncs.com/picgoimages-master/image-20210813160529803.png)
+![image-20210813160529803](https://typora-dzsq1.oss-cn-hangzhou.aliyuncs.com/image-20210813160529803.png)
 
 #### 2.磁盘地址结构的设计
 
@@ -2155,11 +2155,11 @@ C-SCAN 算法的主要缺点是只有到达最边上的磁道时才能改变磁�
 
 #### 3.错位命名
 
-![image-20210813160725166](https://typora-dzsq.oss-cn-hangzhou.aliyuncs.com/picgoimages-master/image-20210813160725166.png)
+![image-20210813160725166](https://typora-dzsq1.oss-cn-hangzhou.aliyuncs.com/image-20210813160725166.png)
 
 
 
-![image-20210813160747164](https://typora-dzsq.oss-cn-hangzhou.aliyuncs.com/picgoimages-master/image-20210813160747164.png)
+![image-20210813160747164](https://typora-dzsq1.oss-cn-hangzhou.aliyuncs.com/image-20210813160747164.png)
 
 ### 13.磁盘的管理
 
@@ -2172,7 +2172,7 @@ Step 2:将磁盘分区，每个分区由若干柱面（磁道）组成（即分�
 
 step 3:进行逻辑格式化，创建文件系统。包括创建文件系统的根目录、初始化存储空间管理所用的数据结构（如位示图、空闲分区表)
 
-![image-20210813161518921](https://typora-dzsq.oss-cn-hangzhou.aliyuncs.com/picgoimages-master/image-20210813161518921.png)
+![image-20210813161518921](https://typora-dzsq1.oss-cn-hangzhou.aliyuncs.com/image-20210813161518921.png)
 
 #### 2.引导块
 
@@ -2211,11 +2211,11 @@ step 3:进行逻辑格式化，创建文件系统。包括创建文件系统的�
 
 #### 2.功能
 
-![image-20210804154622720](https://typora-dzsq.oss-cn-hangzhou.aliyuncs.com/picgoimages-master/image-20210804154622720.png)
+![image-20210804154622720](https://typora-dzsq1.oss-cn-hangzhou.aliyuncs.com/image-20210804154622720.png)
 
 #### 3.组成
 
-![image-20210804155007898](https://typora-dzsq.oss-cn-hangzhou.aliyuncs.com/picgoimages-master/image-20210804155007898.png)
+![image-20210804155007898](https://typora-dzsq1.oss-cn-hangzhou.aliyuncs.com/image-20210804155007898.png)
 
 ### 3.I/O控制方式
 
@@ -2223,60 +2223,60 @@ step 3:进行逻辑格式化，创建文件系统。包括创建文件系统的�
 
 - 完成一次读/写操作的流程图(以读操作为例)
 
-![在这里插入图片描述](https://typora-dzsq.oss-cn-hangzhou.aliyuncs.com/picgoimages-master/20200515164145475.png)
+![在这里插入图片描述](https://typora-dzsq1.oss-cn-hangzhou.aliyuncs.com/20200515164145475.png)
 
 - 流程图
 
-![在这里插入图片描述](https://typora-dzsq.oss-cn-hangzhou.aliyuncs.com/picgoimages-master/2020051516520665.png)
+![在这里插入图片描述](https://typora-dzsq1.oss-cn-hangzhou.aliyuncs.com/2020051516520665.png)
 
 #### 2.中断驱动方式
 
 - 由于程序直接控制方式CPU利用率低，忙等，所以提出了中断驱动方式。
 
-![在这里插入图片描述](https://typora-dzsq.oss-cn-hangzhou.aliyuncs.com/picgoimages-master/20200515165822656.png)
+![在这里插入图片描述](https://typora-dzsq1.oss-cn-hangzhou.aliyuncs.com/20200515165822656.png)
 
 
 
-![在这里插入图片描述](https://typora-dzsq.oss-cn-hangzhou.aliyuncs.com/picgoimages-master/20200515165910621.png)
+![在这里插入图片描述](https://typora-dzsq1.oss-cn-hangzhou.aliyuncs.com/20200515165910621.png)
 
 #### 3.DMA方式
 
 - 虽然中断驱动方式解决了程序直接控制方式的问题，但是每一次只能读/写一个字，导致CPU频繁切换，耗费了很多时间。于是人们又发明了DMA方式。
 
-![在这里插入图片描述](https://typora-dzsq.oss-cn-hangzhou.aliyuncs.com/picgoimages-master/20200515170628643.png)
+![在这里插入图片描述](https://typora-dzsq1.oss-cn-hangzhou.aliyuncs.com/20200515170628643.png)
 
 - DMA控制器
 
-![在这里插入图片描述](https://typora-dzsq.oss-cn-hangzhou.aliyuncs.com/picgoimages-master/20200515171317683.png)
+![在这里插入图片描述](https://typora-dzsq1.oss-cn-hangzhou.aliyuncs.com/20200515171317683.png)
 
 - 
 
-![在这里插入图片描述](https://typora-dzsq.oss-cn-hangzhou.aliyuncs.com/picgoimages-master/20200515171734106.png)
+![在这里插入图片描述](https://typora-dzsq1.oss-cn-hangzhou.aliyuncs.com/20200515171734106.png)
 
 #### 4.通道控制方式
 
 - 通道控制方式是为了解决DMA方式连续存储的问题
 
-![在这里插入图片描述](https://typora-dzsq.oss-cn-hangzhou.aliyuncs.com/picgoimages-master/20200515172334709.png)
+![在这里插入图片描述](https://typora-dzsq1.oss-cn-hangzhou.aliyuncs.com/20200515172334709.png)
 
-![在这里插入图片描述](https://typora-dzsq.oss-cn-hangzhou.aliyuncs.com/picgoimages-master/20200515173712780.png)
+![在这里插入图片描述](https://typora-dzsq1.oss-cn-hangzhou.aliyuncs.com/20200515173712780.png)
 
 #### 5.四种方式总结
 
-![在这里插入图片描述](https://typora-dzsq.oss-cn-hangzhou.aliyuncs.com/picgoimages-master/20200515173946936.png)
+![在这里插入图片描述](https://typora-dzsq1.oss-cn-hangzhou.aliyuncs.com/20200515173946936.png)
 
 ### 4.I/O软件层次结构
 
 #### 1.知识总览
 
-![image-20210813172017447](https://typora-dzsq.oss-cn-hangzhou.aliyuncs.com/picgoimages-master/image-20210813172017447.png)
+![image-20210813172017447](https://typora-dzsq1.oss-cn-hangzhou.aliyuncs.com/image-20210813172017447.png)
 
 #### 2.用户层软件
 
 - 用户层软件实现了与用户交互的接口，用户可直接使用该层提供的、与I/o操作相关的库函数对设备进行操作。
 - 用户层软件将用户请求翻译成格式化的I/o请求，并通过“系统调用”请求操作系统内核的服务。
 
-![image-20210813172214640](https://typora-dzsq.oss-cn-hangzhou.aliyuncs.com/picgoimages-master/image-20210813172214640.png)
+![image-20210813172214640](https://typora-dzsq1.oss-cn-hangzhou.aliyuncs.com/image-20210813172214640.png)
 
 #### 3.设备独立性软件
 
@@ -2294,7 +2294,7 @@ step 3:进行逻辑格式化，创建文件系统。包括创建文件系统的�
 用户或用户层软件发出I/o操作相关系统调用的系统调用时，需要指明此次要操作的I/o设备的逻辑设备名（eg:去学校打印店打印时，需要选择打印机1/打印机2/打印机3，其实这些都是逻辑设备名)
 设备独立性软件需要通过“逻辑设备表（LUT，Logical UnitTable）”来确定逻辑设备对应的物理设备，并找到该设备对应的设备驱动程序。如图所示：
 
-![image-20210813172808277](https://typora-dzsq.oss-cn-hangzhou.aliyuncs.com/picgoimages-master/image-20210813172808277.png)
+![image-20210813172808277](https://typora-dzsq1.oss-cn-hangzhou.aliyuncs.com/image-20210813172808277.png)
 
 操作系统系统可以采用两种方式管理逻辑设备表(LUT) :
 第一种方式，整个系统只设置一张LUT，这就意味着所有用户不能使用相同的逻辑设备名，因此这种方式只适用于单用户操作系统。
@@ -2307,27 +2307,27 @@ step 3:进行逻辑格式化，创建文件系统。包括创建文件系统的�
 
 不同设备的内部硬件特性也不同，这些特性只有厂家才知道，因此厂家须提供与设备相对应的驱动程序，CPU执行驱动程序的指令序列，来完成设置设备寄存器，检查设备状态等工作。
 
-![image-20210813173131230](https://typora-dzsq.oss-cn-hangzhou.aliyuncs.com/picgoimages-master/image-20210813173131230.png)
+![image-20210813173131230](https://typora-dzsq1.oss-cn-hangzhou.aliyuncs.com/image-20210813173131230.png)
 
 #### 5.中断处理程序
 
 当I/o任务完成时，I/o控制器会发送一个中断信号，系统会根据中断信号类型找到相应的中断处理程序并执行。中断处理程序的处理流程如下:
 
-![image-20210813173226846](https://typora-dzsq.oss-cn-hangzhou.aliyuncs.com/picgoimages-master/image-20210813173226846.png)
+![image-20210813173226846](https://typora-dzsq1.oss-cn-hangzhou.aliyuncs.com/image-20210813173226846.png)
 
 #### 6.总结
 
-![image-20210813173303452](https://typora-dzsq.oss-cn-hangzhou.aliyuncs.com/picgoimages-master/image-20210813173303452.png)
+![image-20210813173303452](https://typora-dzsq1.oss-cn-hangzhou.aliyuncs.com/image-20210813173303452.png)
 
 ### 5.I/O核心子系统
 
 #### 1.知识总览
 
-![image-20210813173804207](https://typora-dzsq.oss-cn-hangzhou.aliyuncs.com/picgoimages-master/image-20210813173804207.png)
+![image-20210813173804207](https://typora-dzsq1.oss-cn-hangzhou.aliyuncs.com/image-20210813173804207.png)
 
 - 这些功能在哪些层次上实现呢？
 
-![image-20210813173845210](https://typora-dzsq.oss-cn-hangzhou.aliyuncs.com/picgoimages-master/image-20210813173845210.png)
+![image-20210813173845210](https://typora-dzsq1.oss-cn-hangzhou.aliyuncs.com/image-20210813173845210.png)
 
 #### 2.I/O调度
 
@@ -2351,7 +2351,7 @@ step 3:进行逻辑格式化，创建文件系统。包括创建文件系统的�
 
 Tips:为什么称为“脱机”？——脱离主机的控制进行的输入/输出操作。
 
-![image-20210813174939614](https://typora-dzsq.oss-cn-hangzhou.aliyuncs.com/picgoimages-master/image-20210813174939614.png)
+![image-20210813174939614](https://typora-dzsq1.oss-cn-hangzhou.aliyuncs.com/image-20210813174939614.png)
 
 #### 2.假脱机技术
 
@@ -2362,7 +2362,7 @@ Tips:为什么称为“脱机”？——脱离主机的控制进行的输入/�
 - “输入进程”模拟脱机输入时的外围控制机
 - “输出进程”模拟脱机输出时的外围控制机
 
-![](https://typora-dzsq.oss-cn-hangzhou.aliyuncs.com/picgoimages-master/image-20210813175358412.png)
+![](https://typora-dzsq1.oss-cn-hangzhou.aliyuncs.com/image-20210813175358412.png)
 
 要实现SPOOLing 技术，必须要有多道程序技术的支持。系统会建立“输入进程”和“输出进程”。
 
@@ -2370,11 +2370,11 @@ Tips:为什么称为“脱机”？——脱离主机的控制进行的输入/�
 
 #### 1.知识总览
 
-![image-20210813182209052](https://typora-dzsq.oss-cn-hangzhou.aliyuncs.com/picgoimages-master/image-20210813182209052.png)
+![image-20210813182209052](https://typora-dzsq1.oss-cn-hangzhou.aliyuncs.com/image-20210813182209052.png)
 
 #### 2.设备分配时考虑的因素
 
-![image-20210813182256861](https://typora-dzsq.oss-cn-hangzhou.aliyuncs.com/picgoimages-master/image-20210813182256861.png)
+![image-20210813182256861](https://typora-dzsq1.oss-cn-hangzhou.aliyuncs.com/image-20210813182256861.png)
 
 ##### 1.固有属性
 
@@ -2413,23 +2413,23 @@ Tips:为什么称为“脱机”？——脱离主机的控制进行的输入/�
 
 “设备、控制器、通道”之间的关系:
 
-![image-20210813183138648](https://typora-dzsq.oss-cn-hangzhou.aliyuncs.com/picgoimages-master/image-20210813183138648.png)
+![image-20210813183138648](https://typora-dzsq1.oss-cn-hangzhou.aliyuncs.com/image-20210813183138648.png)
 
 - **设备控制表（DCT):**系统为每个设备配置一张DCT，用于记录设备情况
 
-![image-20210813183223442](https://typora-dzsq.oss-cn-hangzhou.aliyuncs.com/picgoimages-master/image-20210813183223442.png)
+![image-20210813183223442](https://typora-dzsq1.oss-cn-hangzhou.aliyuncs.com/image-20210813183223442.png)
 
 - **控制器控制表(COCT):**每个设备控制器都会对应一张COCT。操作系统根据COCT的信息对控制器进行操作和管理。
 
-![image-20210813183256911](https://typora-dzsq.oss-cn-hangzhou.aliyuncs.com/picgoimages-master/image-20210813183256911.png)
+![image-20210813183256911](https://typora-dzsq1.oss-cn-hangzhou.aliyuncs.com/image-20210813183256911.png)
 
 - **通道控制表（CHCT):**每个通道都会对应一张CHCT。操作系统根据CHCT的信息对通道进行操作和管理。
 
-![image-20210813183402979](https://typora-dzsq.oss-cn-hangzhou.aliyuncs.com/picgoimages-master/image-20210813183402979.png)
+![image-20210813183402979](https://typora-dzsq1.oss-cn-hangzhou.aliyuncs.com/image-20210813183402979.png)
 
 - **系统设备表(SDT)**:记录了系统中全部设备的情况，每个设备对应一个表目。
 
-![image-20210813183445007](https://typora-dzsq.oss-cn-hangzhou.aliyuncs.com/picgoimages-master/image-20210813183445007.png)
+![image-20210813183445007](https://typora-dzsq1.oss-cn-hangzhou.aliyuncs.com/image-20210813183445007.png)
 
 #### 5.设备分配的步骤
 
@@ -2452,7 +2452,7 @@ Tips:为什么称为“脱机”？——脱离主机的控制进行的输入/�
 
 改进方法:建立逻辑设备名与物理设备名的映射机制，用户编程时只需提供逻辑设备名
 
-![image-20210813183902617](https://typora-dzsq.oss-cn-hangzhou.aliyuncs.com/picgoimages-master/image-20210813183902617.png)
+![image-20210813183902617](https://typora-dzsq1.oss-cn-hangzhou.aliyuncs.com/image-20210813183902617.png)
 
 #### 6.设备分配步骤的改进
 
@@ -2464,17 +2464,17 @@ Tips:为什么称为“脱机”？——脱离主机的控制进行的输入/�
 
 ④根据COCT找到CHCT，若通道忙碌则将进程PCB挂到通道等待队列中，不忙碌则将通道分配给进程。
 
-![image-20210813183835147](https://typora-dzsq.oss-cn-hangzhou.aliyuncs.com/picgoimages-master/image-20210813183835147.png)
+![image-20210813183835147](https://typora-dzsq1.oss-cn-hangzhou.aliyuncs.com/image-20210813183835147.png)
 
 - 逻辑设备表
 
-![image-20210813183947599](https://typora-dzsq.oss-cn-hangzhou.aliyuncs.com/picgoimages-master/image-20210813183947599.png)
+![image-20210813183947599](https://typora-dzsq1.oss-cn-hangzhou.aliyuncs.com/image-20210813183947599.png)
 
 ### 8.缓冲区管理
 
 #### 1.知识总览
 
-![image-20210813184118658](https://typora-dzsq.oss-cn-hangzhou.aliyuncs.com/picgoimages-master/image-20210813184118658.png)
+![image-20210813184118658](https://typora-dzsq1.oss-cn-hangzhou.aliyuncs.com/image-20210813184118658.png)
 
 #### 2.含义和作用
 
@@ -2488,18 +2488,18 @@ Tips:为什么称为“脱机”？——脱离主机的控制进行的输入/�
 
 > 作用
 
-![image-20210813184305965](https://typora-dzsq.oss-cn-hangzhou.aliyuncs.com/picgoimages-master/image-20210813184305965.png)
+![image-20210813184305965](https://typora-dzsq1.oss-cn-hangzhou.aliyuncs.com/image-20210813184305965.png)
 
 #### 3.单缓冲
 
 假设某用户进程请求某种块设备读入若干块的数据。若采用单缓冲的策略，操作系统会在主存中为其分配一个缓冲区（若题目中没有特别说明，一个缓冲区的大小就是一个块）。如图所示
 **注意:当缓冲区数据非空时，不能往缓冲区冲入数据，只能从缓冲区把数据传出;当缓冲区为空时，可以往缓冲区冲入数据，但必须把缓冲区充满以后，才能从缓冲区把数据传出。**
 
-![image-20210813184442012](https://typora-dzsq.oss-cn-hangzhou.aliyuncs.com/picgoimages-master/image-20210813184442012.png)
+![image-20210813184442012](https://typora-dzsq1.oss-cn-hangzhou.aliyuncs.com/image-20210813184442012.png)
 
 - 处理一块数据的平均时间
 
-![image-20210813184559073](https://typora-dzsq.oss-cn-hangzhou.aliyuncs.com/picgoimages-master/image-20210813184559073.png)
+![image-20210813184559073](https://typora-dzsq1.oss-cn-hangzhou.aliyuncs.com/image-20210813184559073.png)
 
 #### 4.双缓冲
 
@@ -2507,11 +2507,11 @@ Tips:为什么称为“脱机”？——脱离主机的控制进行的输入/�
 
 - 假设T>C+M
 
-![image-20210813184707380](https://typora-dzsq.oss-cn-hangzhou.aliyuncs.com/picgoimages-master/image-20210813184707380.png)
+![image-20210813184707380](https://typora-dzsq1.oss-cn-hangzhou.aliyuncs.com/image-20210813184707380.png)
 
 - 假设T<C+M
 
-![image-20210813184750672](https://typora-dzsq.oss-cn-hangzhou.aliyuncs.com/picgoimages-master/image-20210813184750672.png)
+![image-20210813184750672](https://typora-dzsq1.oss-cn-hangzhou.aliyuncs.com/image-20210813184750672.png)
 
 
 
@@ -2522,7 +2522,7 @@ Tips:为什么称为“脱机”？——脱离主机的控制进行的输入/�
 将多个大小相等的缓冲区链接成一个循环队列。
 注:以下图示中，橙色表示已充满数据的缓冲区，绿色表示空缓冲区。
 
-![image-20210813184911606](https://typora-dzsq.oss-cn-hangzhou.aliyuncs.com/picgoimages-master/image-20210813184911606.png)
+![image-20210813184911606](https://typora-dzsq1.oss-cn-hangzhou.aliyuncs.com/image-20210813184911606.png)
 
 #### 6.缓冲池
 
@@ -2532,4 +2532,4 @@ Tips:为什么称为“脱机”？——脱离主机的控制进行的输入/�
 
 另外，根据一个缓冲区在实际运算中扮演的功能不同，又设置了四种工作缓冲区:用于收容输入数据的工作缓冲区(hin)、用于提取输入数据的工作缓冲区（sin)、用于收容输出数据的工作缓冲区(hout） 、用于提取输出数据的工作缓冲区(sout)。
 
-![image-20210813185014461](https://typora-dzsq.oss-cn-hangzhou.aliyuncs.com/picgoimages-master/image-20210813185014461.png)
+![image-20210813185014461](https://typora-dzsq1.oss-cn-hangzhou.aliyuncs.com/image-20210813185014461.png)
